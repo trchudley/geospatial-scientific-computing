@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# build output
+site/
+_site/
+.jekyll-cache/
+_build/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
