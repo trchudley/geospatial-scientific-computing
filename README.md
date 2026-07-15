@@ -1,8 +1,14 @@
-# Jupyter Book v2 Example Website
+# GEOGM0081 Geospatial Scientific Computing
 
-This is an example website using [Jupyter Book](https://jupyterbook.org/) version 2.
+## About
 
-## Installation
+This repository contains the course website for the University of Bristol School of Geographical Sciences course GEOGM0081 Geospatial Scientific Computing.
+
+## Jupyter Book v2 Instructions
+
+This website has been produced using [Jupyter Book](https://jupyterbook.org/) version 2.
+
+### Installation
 
 Ensure the necessary dependencies are installed within your Python environment:
 
@@ -10,7 +16,7 @@ Ensure the necessary dependencies are installed within your Python environment:
 conda install -r jupyter-book>=2.0.0 jupyter jupyterlab matplotlib numpy ghp-import 
 ```
 
-## Running Locally
+### Running Locally
 
 To build and view the book locally:
 
@@ -22,7 +28,7 @@ The site will be available at `http://localhost:3000`
 
 The built html output will be in the `_build/` directory.
 
-## Features
+### Features
 
 Jupyter Book supports:
 - Markdown files (`.md`)
@@ -32,7 +38,7 @@ Jupyter Book supports:
 - Cross-references
 - Jupyter cell outputs
 
-# Publish to GitHub Pages
+### Publish to GitHub Pages
 
 JupyterBook has a built-in function to set up GitHub Pages deployment:
 

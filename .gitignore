@@ -6,7 +6,7 @@
 
 # build output
 site/
-_site/
+# _site/
 .jekyll-cache/
 _build/
 
