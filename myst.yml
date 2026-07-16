@@ -19,8 +19,13 @@ project:
     - file: frontmatter/information.md
     - file: week/01/index.md
       title: "Week 1: Basic Python"
-      # children:
-      #   - file: week/02/plotting.ipynb
+      children:
+        - file: week/01/01-why.md
+        - file: week/01/02-installing-python.md
+        - file: week/01/03-python-environments.md
+        - file: week/01/04-installing-jupyter.md
+        - file: week/01/05-basic-python.ipynb
+        - file: week/01/06-exercises.ipynb
     - file: week/02/index.md
       title: "Week 2: Scientific Python"
       children:
@@ -57,10 +62,12 @@ project:
       title: "Week 10/11: Final Project"
       # children:
       #   - file: pages/chapters/content.md
-    - title: "Backmatter"
+    - title: "Appendix"
       children:
+         - file: backmatter/ai.md
+         - file: backmatter/pyfiles.md
          - file: backmatter/qgis.md
-         - file: backmatter/external_resources.md
+    - file: backmatter/external_resources.md
 
 social links:
   - url: https://trchudley.github.io

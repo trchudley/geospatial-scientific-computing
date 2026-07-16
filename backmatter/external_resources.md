@@ -8,6 +8,11 @@
  - Helsinki GeoPython [book](https://pythongis.org/) and [course](https://geo-python-site.readthedocs.io).
  - [Python Foundation for Spatial Analysis](https://courses.spatialthoughts.com/python-foundation.html)
 
+## Tool Documentation
+
+- [`conda` (Package Manager)](https://docs.conda.io)
+- 
+
 ## General links / resouces
 
 ### Learning Python
