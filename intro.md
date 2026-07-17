@@ -19,7 +19,7 @@ During Summer 2026, this course is under construction for teaching Sep-Dec 2026.
 ## Contributors
 
  - [Tom Chudley](https://www.bristol.ac.uk/people/person/Tom-Chudley-f5b12306-221d-46bc-ac23-29c2341b5613/) wrote this content (unless specified otherwise).
- - [Fabien Maussion]([https://fabuen](https://www.bristol.ac.uk/people/person/Fabien-Maussion-1af08aa4-9b2a-4a83-bba7-95c10b97ee1e/) originally developed the content for installiing Python and Jupyter Lab on University of Bristol teaching computers.
+ - [Fabien Maussion](https://www.bristol.ac.uk/people/person/Fabien-Maussion-1af08aa4-9b2a-4a83-bba7-95c10b97ee1e/) originally developed the content for installing Python and Jupyter Lab on University of Bristol teaching computers.
  - XXXX and YYYY helped to review and proof read them.
 
 ## License

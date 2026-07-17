@@ -1,24 +1,22 @@
 # Week 1: Introduction
 
-Basic python, or maybe split across week 1 and/or week 2?
+Week 1 provides an overview on how to install Python on your local system, and introduces the basic building blocks of Python that we will build upon in future weeks.
+
+:::{tip} Learning Objectives
+After this session, you should be able to
+ - Run Python on your local machine
+   - Access and/or install Python on a University workstation or your local machine.
+   - Understand why we use package managers and environments.
+   - Understand how to use Jupyter Notebooks to display and run Python content.
+ - Understand essential Python programming concepts and how to apply them.
+   - Define and use variables.
+   - Understand data types and how to convert between them.
+   - Understand programming structures such as `for` loops, `if`/`then` statements, and functions.
+   - Understand how to `import` packages for additional capability.
+:::
 
 
-1. Shell, Conda, Python and Jupyter Hub; Basic Python
-   1. Installing Conda, Python, and Jupyter
-   2. Running Basic Python: Data Types, etc.
-   3. Running Jupyter Notebooks
-
-
-## Topics
-
- - What is Scientific Programming?
- - Installing Python
- - Installing Jupyter Hub
- - Encourage students to learn basic python?
- - Homework: setup student accounts
-   - Github account
-   - Google Account
-
+## Useful Online Material
 
 Useful online material:
  - https://fabienmaussion.info/intro_to_programming/

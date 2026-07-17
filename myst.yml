@@ -29,15 +29,24 @@ project:
     - file: week/02/index.md
       title: "Week 2: Scientific Python"
       children:
-        - file: week/02/plotting.ipynb
+        - file: week/02/01-numpy.ipynb
+        - file: week/02/02-pandas.ipynb
+        - file: week/02/03-plotting.ipynb
+        - file: week/02/04-exercises.ipynb
     - file: week/03/index.md
       title: "Week 3: Vector Data"
-      # children:
-      #   - file: pages/chapters/content.md
+      children:
+        - file: week/03/01-geometries.ipynb
+        - file: week/03/02-geopandas.ipynb
+        - file: week/03/03-analysis.ipynb
+        - file: week/03/04-exercises.ipynb
     - file: week/04/index.md
       title: "Week 4: Gridded Data"
-      # children:
-      #   - file: pages/chapters/content.md
+      children:
+        - file: week/04/01-arrays.ipynb
+        - file: week/04/02-xarray.ipynb
+        - file: week/04/03-manipulation.ipynb
+        - file: week/04/04-exercises.ipynb
     - file: week/05/index.md
       title: "Week 5: Geospatial Analysis"
       # children:
