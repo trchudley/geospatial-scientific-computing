@@ -29,14 +29,14 @@ In the [previous page](./02-installing-python.md), we ensured that the conda pac
 :::{tab-item} On Windows
 :sync: win
  - You are able to open **one of** the anaconda or miniforge prompt (depending on how Python was installed on your computer).
- - You can type **one of** `conda list` or `mamba list` successfully.
+ - You can type `conda list` successfully.
  - You can type `python` and open a python interpreter.
 :::
 
 :::{tab-item} On MacOS and Linux
 :sync: os
  - You are able to open the terminal.
- - You can type **one of** `conda list` or `mamba list` successfully.
+ - You can type `conda list` successfully.
  - You can type `python` and open a python interpreter.
 :::
 

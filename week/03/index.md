@@ -1,6 +1,21 @@
-# Week 3: Vector Data
+# Introduction
 
-Cover core concepts for vector data, including geopandas.
+Week 3 introduces core concepts for vector data, including geopandas.
+
+:::{tip} Learning Objectives
+After this session, you should be able to
+ - Point 1
+ - Point 2
+ - Point 3
+:::
+
+---
+
+## Useful Online Material
+
+---
+
+#### draft planning notes
 
 3. Vector I: Geopandas, CRS, Projections
    1. Vector Data

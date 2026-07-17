@@ -1,3 +1,7 @@
+---
+numbering: false
+---
+
 # Welcome
 
 ## GEOGM0081: Geospatial Scientific Computing

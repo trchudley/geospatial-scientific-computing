@@ -1,3 +1,7 @@
+---
+numbering: false
+---
+
 # Editing `.py` files
 
 In the main text, I identify that common way to run long Python scripts without having to tab through a Jupyter Notebook is to use `.py` file, and run this in the command line. Ultimately, a `.py` file simply a text file of Python commands. For instance, say we have a file called `myscript.py` containing the following:

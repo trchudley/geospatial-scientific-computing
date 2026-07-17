@@ -1,7 +1,23 @@
-# Week 2: Scientific Python
+# Introduction
 
-Introducing the packages we want to work within:
-2. Core Python Modules: Numpy, Pandas, and Matplotlib
+Week 2 introduces core scientific Python packages for managing tabular data and plotting.
+
+:::{tip} Learning Objectives
+After this session, you should be able to
+ - Point 1
+ - Point 2
+ - Point 3
+:::
+
+---
+
+## Useful Online Material
+
+---
+
+#### draft planning notes 
+
+1. Core Python Modules: Numpy, Pandas, and Matplotlib
    1. Numpy
    2. Scipy
    3. Pandas

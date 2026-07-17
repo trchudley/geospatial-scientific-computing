@@ -1,4 +1,4 @@
-# Week 1: Introduction
+# Introduction
 
 Week 1 provides an overview on how to install Python on your local system, and introduces the basic building blocks of Python that we will build upon in future weeks.
 
@@ -15,6 +15,7 @@ After this session, you should be able to
    - Understand how to `import` packages for additional capability.
 :::
 
+---
 
 ## Useful Online Material
 

@@ -1,3 +1,7 @@
+---
+numbering: false
+---
+
 # Using AI
 
 The document is split into two: the fine print as required by the University, and a more human recommendation of how you might use AI within the programming aspects of this course.

@@ -1,3 +1,7 @@
+---
+numbering: false
+---
+
 # GUI GIS Software
 
 This course teaches you to manipulate and plot geospatial data with Python. Programmatic interfaces are desirable for all the reasons we have already covered, such as scalability and replicability. However, there are still situations where you may wish to visualise and investigate data in a more casual manner. For this, we will use Geospatial Information Software (GIS), which allow you to manage geospatial data using a more tradiational Graphical User Interface (GUI) app.
