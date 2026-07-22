@@ -65,8 +65,9 @@ project:
       #   - file: pages/chapters/content.md
     - file: week/08/index.md
       title: "Version Control"
-      # children:
-      #   - file: pages/chapters/content.md
+      children:
+        - file: week/08/01-what-is-git.md
+        - file: week/08/02-install-git.md
     - file: week/09/index.md
       title: "Google Earth Engine"
       # children:
