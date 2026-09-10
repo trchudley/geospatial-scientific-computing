@@ -1,19 +1,20 @@
 # Installing Python
 
-:::{note} Install required for personal computers only
-University workstations already have the necessary software installed.
-:::
-
 In order to run Python, it must be installed on the computer you are working from.
+
+:::{note} Install required for personal computers only
+University workstations already have the necessary software installed. We recommend you have a go at installing on your personal machines, but can fall back to the University machines if necessary.
+:::
 
 Installing Python on your device is optional, as **all class exercises can be completed using the University workstations**. However, installing Python and related tools on your own device can be valuable for this course:
 
  - It allows you to work on exercises at home.
  - You will gain experience of how Python installation works in the 'real world'.
- - The University installation is such that you must return to the same physical workstation every time.
+ - The University setup of your Windows userspace is such that, after you have installed your Python environment, you must return to the same physical workstation every time.
 
+We will do our best to help you install Python on your own device, but please be aware we can't account for all possible setups and errors!
 
-There are many ways to install Python on your computer. Most methods work, but some are more suited for our needs than others. It is easily to lose track of your installation and get confused: 
+If you Google "how to install Python", you will find there are many competing ways to install Python on your computer. All (or most) of these methods will work, but some are more suited for our needs than others. If you install things in a rush, it is easily to lose track of your installation and get confused: 
 
 ```{figure} https://imgs.xkcd.com/comics/python_environment.png
 :alt: xkcd webcomic
@@ -29,9 +30,7 @@ We are going to use a software called [**conda**](https://docs.conda.io/) to man
 Unless you are experienced with Python installations (i.e. you have done this before), please follow these instructions carefully.
 
 :::{warning} What to do if you **already** have python installed on your laptop
-**If you already have Anaconda, Conda, or Miniconda installed from a previous experience:**
-
-You can keep your installation if it works for you. If you’d prefer to start fresh, **uninstall Anaconda first** and follow the instructions below.
+If you already have Anaconda, Conda, or Miniconda installed from a previous experience, you can keep your installation if it works for you. If you’d prefer to start fresh, **uninstall Anaconda first** and follow the instructions below.
 :::
 
 :::{danger} **If you have Windows version 10 or below, or a Chromebook**
@@ -64,9 +63,11 @@ Choose a folder located in where there is enough space available, for example in
 
 :::{tab-item} On MacOS and Linux
 :sync: os
-If you have a macOS machine, you can download and run a PKG installer for [Apple Silicon machines](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.pkg) or [Intel machines](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.pkg) from the respective links. If given the option, ensure that the installer performs 'package initialisation' for your shell.
+**If you have a macOS machine**, you can download and run a PKG installer for [Apple Silicon machines](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.pkg) or [Intel machines](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.pkg) from the respective links. During installation, follow the steps on screen by pressing `Continue`. By the 4th screen, you can choose a different installation path by clicking on "Change Install Location". Other options may be available behind the "Customise" button. If given the option, ensure that the installer performs 'package initialisation' for your shell. 
 
-If you have a Linux machine, follow the the instructions [here](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl). You will have to open your "terminal" app (or equivalent, depending on your OS), and copy and paste the terminal commands.
+Once ready, click on Install. If everything went according to plan, the Summary page will report success.
+
+**If you have a Linux machine**, follow the the instructions [here](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl). You will have to open your "terminal" app (or equivalent, depending on your OS), and copy and paste the terminal commands.
 :::
 
 ::::
@@ -96,6 +97,12 @@ The prompt you opened should display a line like this:
 :::{tab-item} On MacOS and Linux
 :sync: os
 For these platforms, the terminal is available by default. You can open it by searching for "terminal" in the search bar.
+
+The terminal you opened should display a line like this:
+```
+(base) myusername@mymachine ~ %
+```
+It might vary a little - the `(base)` is the important part!
 :::
 
 ::::

@@ -4,20 +4,35 @@ numbering: false
 
 # External Resources
 
-## Online Resouces for Geospatial Python
+## Learning Resources 
+
+### Online Resources for Geospatial Python
 
  - [Python for Geographic Analysis Textbook](https://pythongis.org/)
  - [Geographic Data Science Textbook](https://geographicdata.science/book/)
  - [Python Foundation for Spatial Analysis](https://courses.spatialthoughts.com/python-foundation.html)
+ - [Project Pythia Foundations Course](https://foundations.projectpythia.org/)
+ - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro)
+ - [Spatial Thoughts - Geospatial Python Tutorials](https://www.geopythontutorials.com/introduction.html)
+ - [Introduction to Earth Data Science Textbook](https://earthdatascience.org/courses/intro-to-earth-data-science/)
+ - [Intermediate Earth Data Science Textbook](https://earthdatascience.org/courses/use-data-open-source-python/)
 
-## Online Resources for Scientific Computing
+### Other Geospatial Python Courses
+
+ - [UW Geospatial Data Analysis with Python Course](https://uwgda-jupyterbook.readthedocs.io)
+ - [Duke Geospatial Data Science Course](https://ryan-lab-duke.github.io/gds-applications-site)
+ - [Helsinki Geo-Python Course](https://geo-python-site.readthedocs.io)
+ - [Helsinki Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/index.html)
+ - [UT Knoxville Introduction to GIS Programming Course](https://geog-312.gishub.org/index.html)
+
+### Online Resources for Scientific Computing
 
 - Software Carpentry
   - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
-  - [Plotting an programming with Python](https://swcarpentry.github.io/python-novice-gapminder/)
+  - [Plotting and programming with Python](https://swcarpentry.github.io/python-novice-gapminder/)
   - [Version Control with Git](https://swcarpentry.github.io/git-novice/)
   - [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
-- [GitHub Learn](https://learn.github.com/skills)
+- [GitHub Learn](https://learn.github.com/)
 
 ## Python Tool Documentation
 
@@ -34,15 +49,15 @@ numbering: false
 
 ## Data Resources
 
-Some of these data sources require creating an account, but all are free to access. Be sure to cite the origin of your data in your projects and dissertations!
+Some of these data sources require creating an account, but all are free to access. Be sure to cite the origin of your data in your projects!
 
 ### Gridded Data
 
  - Satellite Data
    - [USGS EarthExplorer](https://earthexplorer.usgs.gov/) - A simple online GUI for downloading Landsat data, amongst other more niche USGS products.
-   - [USGS Landsat Data Access summary](https://www.usgs.gov/landsat-missions/landsat-data-access)
+   - [USGS Landsat Data Access summary](https://www.usgs.gov/landsat-missions/landsat-data-access) - Other ways of accessing Landsat data.
    - [Copernicus Browser](https://browser.dataspace.copernicus.eu) - the 'official' way of downloading Sentinel-2 data.
-   - [NASA EarthData Search](https://search.earthdata.nasa.gov) - Not quite as simple as EarthExplorer but useful for wider datasets, e.g. the Harmonised Landsat/Sentinel-2 (HLS) dataset.
+   - [NASA EarthData Search](https://search.earthdata.nasa.gov) - Not quite as intuitive to use as EarthExplorer, but useful for wider datasets beyond Landsat, e.g. the Harmonised Landsat/Sentinel-2 (HLS) dataset.
    - [SentinelHub EO Browser](https://www.sentinel-hub.com/explore/eobrowser/)
  - Climate Data
    - [Copenicus Climate Data Store](https://cds.climate.copernicus.eu/) ([for ERA5 data - download tutorial here](https://confluence.ecmwf.int/spaces/CKB/pages/129135000/How+to+download+ERA5))
@@ -70,10 +85,3 @@ Some of these data sources require creating an account, but all are free to acce
    - [UK Met Office Monthly met station data](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) - More limited datasets available but very easy to use.
    - [NCEI NOAA Climatology Network daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) - search for daily data from globally available stations. 
    <!-- - [NCEI NOAA Integraded Surface Database (ISD)](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database) - another global collation for hourly and daily data. -->
-
-## Other Geospatal Python Courses
-
- - [UW Geospatial Data Analysis with Python Course](https://uwgda-jupyterbook.readthedocs.io)
- - [Duke Geospatial Data Science Course](https://ryan-lab-duke.github.io/gds-applications-site)
- - [Helsinki Geo-Python Course](https://geo-python-site.readthedocs.io)
- - [Helsinki Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/index.html)

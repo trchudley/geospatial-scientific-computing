@@ -4,24 +4,36 @@ Week 3 introduces core concepts for vector data, including geopandas.
 
 :::{tip} Learning Objectives
 After this session, you should be able to
- - Point 1
- - Point 2
- - Point 3
+ - Understand how geographic vector data are represented in Python using the `shapely` library
+ - Understand how `geopandas` and the `GeoDataFrame` data structure extend `pandas` functionality for geographic data.
+ - Understand how to define and reproject the coordinate reference system of `geopandas` datasets.
+ - Understand some basic analytical functions of `GeoDataFrame` objects, such as spatial joins and plotting.
 :::
 
 ---
 
 ## Useful Online Material
 
+ - Python for Geographic Data Analysis - [Chapter 6 - Vector data processing](https://pythongis.org/part2/chapter-06/index.html)
+ - Intro to GIS Programming - [GeoPandas](https://geog-312.gishub.org/book/geospatial/geopandas.html)
+ - [`geopandas` User Guide](https://geopandas.org/en/stable/docs/user_guide.html)
+
 ---
 
 #### draft planning notes
 
 3. Vector I: Geopandas, CRS, Projections
-   1. Vector Data
-   2. Geopandas
-   3. Managing projections and CRS
-   4. Some sort of Geopandas data analysis - kriging, etc.
+   1. Vector data reminder: CRS, EPSG, coordinate etc.
+   2. Geometries and shapely
+      1. Point, linestring, polygon
+   3. Geopandas
+      1. Reading data
+      2. area, length, centroid, buffer etc
+      3. Plotting
+   4. Managing projections and CRS
+   5. Some sort of Geopandas data analysis - spatial joins? csv to geospatial data
+
+Exercise: find largest cities, buffer rivers, count schools within admin areas, etc.
 
  - What is Vector data
  - GeoPandas

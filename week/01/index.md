@@ -19,6 +19,55 @@ After this session, you should be able to
 
 ## Useful Online Material
 
-Useful online material:
- - https://fabienmaussion.info/intro_to_programming/
- - https://fabienmaussion.info/scientific_programming/welcome.html
+ - Software Carpentry -- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
+ - Python for Geographic Data Analysis
+   - [Chapter 1 - Getting started](https://pythongis.org/part1/chapter-01/index.html)
+   - [Chapter 2 - Basic programming concepts](https://pythongis.org/part1/chapter-02/index.html)
+ - Project Pythia
+   - [Getting Started with Python](https://foundations.projectpythia.org/foundations/getting-started-python/)
+   - [Getting Started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter/)
+ - Earth Data Science Textbook
+   - [Section 5 - Python Code Fundamentals](https://earthdatascience.org/courses/intro-to-earth-data-science/python-code-fundamentals/)
+   - [Section 7 - Write Efficient, Clearn Code Using Open Source Python](https://earthdatascience.org/courses/intro-to-earth-data-science/write-efficient-python-code/)
+ - [Google's Python Class](https://developers.google.com/edu/python)
+ - [`conda` User Guide](https://docs.conda.io/en/latest/)
+
+ <!-- - https://fabienmaussion.info/intro_to_programming/
+ - https://fabienmaussion.info/scientific_programming/welcome.html -->
+
+
+<!-- 
+
+---
+
+## draft planning notes
+
+Concepts
+ - What Python is
+ - Scripts vs notebooks
+ - Cells
+ - Running code
+ - Reading error messages
+Variables
+ - integers
+ - floats
+ - strings
+ - booleans
+Data structures
+ - lists
+ - tuples
+ - dictionaries
+ - sets
+Control flow
+ - if/else
+ - for loops
+ - while loops
+ - enumerate()
+ - zip()
+Functions
+ - calling functions (simple example using `math`)
+ - keyword arguments
+ - writing simple functions
+ - docstrings and help()
+
+-->

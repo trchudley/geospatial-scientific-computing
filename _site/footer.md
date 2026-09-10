@@ -10,6 +10,11 @@ By [Tom Chudley](https://www.bristol.ac.uk/people/person/Tom-Chudley-f5b12306-22
 
 ::::
 
+<span style="font-size: 85%;">
+<!-- Powered by [Jupyter Book](https://jupyterbook.org/) and [MyST](https://mystmd.org/). -->
+Made using <a href="https://jupyterbook.org">Jupyter Book</a> and <a href="https://mystmd.org">MyST</a>.
+
+</span>
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png

@@ -24,58 +24,66 @@ project:
     - file: week/01/index.md
       title: "Basic Python"
       children:
-        - file: week/01/01-why.md
-        - file: week/01/02-installing-python.md
-        - file: week/01/03-python-environments.md
-        - file: week/01/04-installing-jupyter.md
-        - file: week/01/05-basic-python.ipynb
-        - file: week/01/06-exercises.ipynb
-    - file: week/02/index.md
-      title: "Scientific Python"
-      children:
-        - file: week/02/01-numpy.ipynb
-        - file: week/02/02-pandas.ipynb
-        - file: week/02/03-plotting.ipynb
-        - file: week/02/04-exercises.ipynb
-    - file: week/03/index.md
-      title: "Vector Data"
-      children:
-        - file: week/03/01-geometries.ipynb
-        - file: week/03/02-geopandas.ipynb
-        - file: week/03/03-analysis.ipynb
-        - file: week/03/04-exercises.ipynb
-    - file: week/04/index.md
-      title: "Gridded Data"
-      children:
-        - file: week/04/01-arrays.ipynb
-        - file: week/04/02-xarray.ipynb
-        - file: week/04/03-manipulation.ipynb
-        - file: week/04/04-exercises.ipynb
-    - file: week/05/index.md
-      title: "Geospatial Analysis"
-      # children:
-      #   - file: pages/chapters/content.md
-    - file: week/06/index.md
-      title: "Formative Assessment"
-      # children:
-      #   - file: pages/chapters/content.md
-    - file: week/07/index.md
-      title: "Spatiotemporal Analysis"
-      # children:
-      #   - file: pages/chapters/content.md
-    - file: week/08/index.md
-      title: "Version Control"
-      children:
-        - file: week/08/01-what-is-git.md
-        - file: week/08/02-install-git.md
-    - file: week/09/index.md
-      title: "Google Earth Engine"
-      # children:
-      #   - file: pages/chapters/content.md
-    - file: week/10/index.md
-      title: "Final Project"
-      # children:
-      #   - file: pages/chapters/content.md
+        # - file: week/01/01-why.md
+        - file: week/01/01-installing-python.md
+        - file: week/01/02-python-environments.md
+        - file: week/01/03-installing-jupyter.md
+        - file: week/01/04-basic-python.ipynb
+        - file: week/01/05-structuring-code.ipynb
+        - file: week/01/exercises-week-01.ipynb
+    # - file: week/02/index.md
+    #   title: "Scientific Python"
+    #   children:
+    #     - file: week/02/01-numpy.ipynb
+    #     - file: week/02/02-pandas.ipynb
+    #     - file: week/02/03-plotting.ipynb
+    #     - file: week/02/04-downloading-data.ipynb
+    #     - file: week/02/exercises-week-02.ipynb
+    # - file: week/03/index.md
+    #   title: "Vector Data"
+    #   children:
+    #     - file: week/03/01-geometries.ipynb
+    #     - file: week/03/02-geopandas.ipynb
+    #     - file: week/03/03-operations.ipynb
+    #     # - file: week/03/04-downloading-data.ipynb
+    #     - file: week/03/exercises-week-03.ipynb
+    # - file: week/04/index.md
+    #   title: "Raster Data"
+    #   children:
+    #     - file: week/04/01-arrays.ipynb
+    #     - file: week/04/02-xarray.ipynb
+    #     - file: week/04/03-operations.ipynb
+    #     - file: week/04/exercises-week-04.ipynb
+    # - file: week/05/index.md
+    #   title: "Optical Satellite Data"
+    #   children:
+    #     - file: week/05/01-optical-data.ipynb
+    #     - file: week/05/02-band-maths.ipynb
+    #     - file: week/05/03-downloading-data.ipynb
+    #     - file: week/05/exercises-week-05.ipynb
+    # - file: week/06/index.md
+    #   title: "Formative Assessment"
+    # - file: week/07/index.md
+    #   title: "Spatiotemporal Analysis"
+    #   children:
+    #     - file: week/07/01-zonal-statistics.ipynb
+    #     - file: week/07/02-change-analysis.ipynb
+    #     - file: week/07/03-timeseries-analysis.ipynb
+    #     - file: week/07/exercises-week-07.ipynb
+    # - file: week/08/index.md
+    #   title: "Google Earth Engine"
+    #   children:
+    #     - file: week/08/exercises-week-08.ipynb
+    # - file: week/09/index.md
+    #   title: "Version Control"
+    #   children:
+    #     - file: week/09/01-what-is-git.md
+    #     - file: week/09/02-install-git.md
+    #     - file: week/09/exercises-week-09.md
+    # - file: week/10/index.md
+    #   title: "Final Project"
+    #   # children:
+    #   #   - file: pages/chapters/content.md
     - title: "Appendix"
       children:
          - file: backmatter/ai.md
@@ -110,6 +118,6 @@ site:
   parts:
     footer: _site/footer.md
     primary_sidebar_footer: _site/primary-sidebar-footer.md
-    banner: |
-      During Summer 2026, this course is under construction for teaching Sep-Dec 2026. Content is subject to change until the week of teaching.
+    # banner: |
+    #   During Summer 2026, this course is under construction for teaching Sep-Dec 2026. Content is subject to change until the week of teaching.
 

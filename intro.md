@@ -14,17 +14,17 @@ __School of Geographical Sciences, University of Bristol__
 
 This website contains lecture notes and activities for the MSc class [Geospatial Scientific Computing](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=26%2F27&unitCode=GEOGM0081), based in the School of Geographical Sciences at the University of Bristol.
 
-This 10-week, 20-credit unit aims to give students a solid grounding in Python and associated tools in order to manage and analyse geospatial data using rigorous and reproducable workflows. 
+This 10-week, 20-credit unit aims to give students an in-depth introduction to Python and associated tools in order to read, process, and analyse geospatial data using rigorous, open-source, and reproducable workflows. The course will start with programming fundamentals before progressing into scientific Python, geospatial vector and raster data, time-series and change analysis, cloud-based computing, and version control.
 
-:::{danger} Under Construction
+<!-- :::{danger} Under Construction
 During Summer 2026, this course is under construction for teaching Sep-Dec 2026. Content is subject to change until the week of teaching.
-:::
+::: -->
 
 ## Contributors
 
  - [Tom Chudley](https://www.bristol.ac.uk/people/person/Tom-Chudley-f5b12306-221d-46bc-ac23-29c2341b5613/) wrote this content (unless specified otherwise).
  - [Fabien Maussion](https://www.bristol.ac.uk/people/person/Fabien-Maussion-1af08aa4-9b2a-4a83-bba7-95c10b97ee1e/) originally developed the content for installing Python and Jupyter Lab on University of Bristol teaching computers.
- - XXXX and YYYY helped to review and proof read them.
+ <!-- - XXXX and YYYY helped to review and proof read them. -->
 
 ## License
 

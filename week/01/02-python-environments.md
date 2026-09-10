@@ -4,31 +4,35 @@ This page contains information on how to set up and manage a 'Python environment
 
 :::{note}
 Installing JupyterLab and the python packages need to be done only **once** on the computer you are using. However, if you are using a workstation in a UoB lab, you will have to do it again if you change for another workstation or if the workstation is reset.
+
+This is partly why we recommend exploring a personal installation, as shown on [the previous page](01-installing-python.md).
 :::
 
 ## Why use environments?
 
 There are three components to understand when setting up Python:
 
-1. Actually installing Python (e.g. having, say, Python 3.12 on your system, and when you run the `python` command in your terminal, it will open it the Python interpreter).
-2. Installing the many scientific packages that make Python useful for us (e.g. tools such as `pandas` or `rioxarray` or `matplotlib`, that we will cover in this course).
-3. Managing environments so you can have multiple versions of Python with different combinations of versions and packages.
+1. **Python**: Actually installing Python (e.g. having, say, Python version 3.12 on your system). This is achieved by being able to enter the `python` command in your terminal, whereupon it will open it the Python interpreter.
+2. **Packages**: Installing the many scientific toolkits, known as "packages", that make Python useful for us (e.g. tools such as `pandas` or `xarray` or `matplotlib`, that we will cover in this course).
+3. **Environments**: Managing "environments" so you can have multiple parallel Python setups with different combinations of versions and packages.
 
 To conceptualise this, we can think of a fresh Python install like a new smartphone. Your phone will come with pre-installed apps such as phone, calendar, clock, notes, etc. In Python terms, our apps are known as **packages**, and those that come pre-installed are known as the **[Standard Library](https://docs.python.org/3/library/index.html)**. Examples include `os`, `datetime`, `random`, and `math`. They are generally designed provide basic functionality for interacting with the OS, opening files and data, and providing basic mathematical functionality.
 
-To make proper use of your phone, the vast majority of users will not be happy with the basic apps on a smartphone. We will want to customise it by installing specific apps that are tailored and useful to you (e.g. WhatsApp, Instagram, etc). On smartphones, we do this via an app store. In Python, our ‘app stores’ are known as package managers, and there are multiple options such as `pip` or `conda`. We use these to install custom packages that we can use for specialist purposes (e.g. for opening geospatial data, or using statistical techniques).
+To make proper use of your phone, the vast majority of users will not be happy with the basic apps on a smartphone. We will want to customise it by installing specific apps that are tailored and useful to us (e.g. WhatsApp, TikTok, Strava, etc). On smartphones, we do this via an app store. In Python, our ‘app stores’ are known as package managers, and there are multiple options such as `pip` or `conda`. We use these to install custom packages that we can use for specialist purposes (e.g. for opening geospatial data, or applying statistical techniques).
 
-There comes a point where you may have two contradictory uses for a phone that means you need more than one - think of employees who have a personal phone and a work phone, for legal or security reasons. To make the analogy slightly more contrived, imagine for some reason that Instagram and Outlook cannot be installed on the same phone. As a result, you might want a ‘social media’ version of your phone for doomscrolling and a ‘work’ version of your phone for checking your emails. These are analogous to Python environments. For example, for one task you might need the latest bleeding-edge version of a tool to take advantage of a recently added function (a required software/package/tool is known as a **dependency**). For another, you might be dependent on an ancient piece of code that requires a Python version from two decades ago. If these requirements are mutually exclusive, it won’t be possible to do both! These are known as **conflicting dependencies**. If you carry on adding more and more packages to one install, eventually it will break for reasons you often due to conflicting dependencies from different packages. As a result, you generally want to work with small, project-specific environments with the minimal packages necessary for a project.
+There comes a point where you may have two contradictory uses for a phone that means you need more than one - think of employees who have a personal phone and a work phone, for legal or security reasons. To make the analogy slightly more contrived, imagine for some reason that Instagram and Outlook cannot be installed on the same phone. As a result, you might want a ‘social media’ version of your phone for doomscrolling and a ‘work’ version of your phone for checking your emails. These are analogous to Python environments. 
+
+For example, for one task you might need the latest bleeding-edge version of a tool to take advantage of a recently added function (a required software/package/tool is known as a **dependency**). For another, you might be dependent on an ancient piece of code that requires a Python version from two decades ago. If these requirements are mutually exclusive, it won’t be possible to do both! These are known as **conflicting dependencies**. If you carry on adding more and more packages to one install, eventually your install will break. As a result, you generally want to work with small, project-specific environments with the minimal packages necessary for a project.
 
 ## Prerequisites
 
-In the [previous page](./02-installing-python.md), we ensured that the conda package manager is installed on your computer. You can test this by:
+In the [previous page](./01-installing-python.md), we ensured that the conda package manager is installed on your computer. You can test this by:
 
 ::::{tab-set}
 
 :::{tab-item} On Windows
 :sync: win
- - You are able to open **one of** the anaconda or miniforge prompt (depending on how Python was installed on your computer).
+ - You are able to open **one of** the "anaconda prompt" or "miniforge prompt" (depending on how Python was installed on your computer).
  - You can type `conda list` successfully.
  - You can type `python` and open a python interpreter.
 :::
