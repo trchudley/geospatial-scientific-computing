@@ -20,6 +20,7 @@ After this session, you should be able to
 ## Useful Online Material
 
  - Software Carpentry -- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
+ - w3 schools -- [Python Tutorial](https://www.w3schools.com/python/default.asp) (up to 'Range')
  - Python for Geographic Data Analysis
    - [Chapter 1 - Getting started](https://pythongis.org/part1/chapter-01/index.html)
    - [Chapter 2 - Basic programming concepts](https://pythongis.org/part1/chapter-02/index.html)
@@ -31,6 +32,12 @@ After this session, you should be able to
    - [Section 7 - Write Efficient, Clearn Code Using Open Source Python](https://earthdatascience.org/courses/intro-to-earth-data-science/write-efficient-python-code/)
  - [Google's Python Class](https://developers.google.com/edu/python)
  - [`conda` User Guide](https://docs.conda.io/en/latest/)
+
+
+---
+<span style="font-size: 85%;">
+Some content from this session builds upon CC-BY 4.0 content written by others. Information on installing Python on the Bristol system is taken from <a href="https://fabienmaussion.info/climate_risks/ready/01-installation.html">Fabien Maussion</a>, and some of the tables and introduction to Python data types is taken from <a href="https://pythongis.org/index.html">Tenkanen <i>et al.</i></a>.
+</span>
 
  <!-- - https://fabienmaussion.info/intro_to_programming/
  - https://fabienmaussion.info/scientific_programming/welcome.html -->

@@ -130,9 +130,3 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 You can type `exit()` to get out of the python interpreter.
-
----
-
-<span style="font-size: 85%;">
-This page builds upon CC-BY 4.0 content written by <a href="https://fabienmaussion.info/climate_risks/ready/01-installation.html">Fabien Maussion</a>.
-</span>

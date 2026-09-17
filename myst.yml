@@ -28,8 +28,9 @@ project:
         - file: week/01/01-installing-python.md
         - file: week/01/02-python-environments.md
         - file: week/01/03-installing-jupyter.md
-        - file: week/01/04-basic-python.ipynb
-        - file: week/01/05-structuring-code.ipynb
+        - file: week/01/04-data-types.ipynb
+        - file: week/01/05-sequences.ipynb
+        - file: week/01/06-structuring-code.ipynb
         - file: week/01/exercises-week-01.ipynb
     # - file: week/02/index.md
     #   title: "Scientific Python"

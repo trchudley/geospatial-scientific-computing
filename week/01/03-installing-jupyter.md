@@ -164,8 +164,3 @@ Next, click the "+" button to add a new cell beneath the one you have connected.
 This is the building blocks of a Jupyter Notebook: a combination of "code blocks" and "text blocks" that allow you to intersperse chunks of code with descriptions of what you are doing. By chaining these together, you can create longer descriptive documents of code and text (like much of this website!).
 
 Now that we have done the boring bit (installed Conda, Python, and Jupyter), we can begin to play and learn Python proper... 
-
----
-<span style="font-size: 85%;">
-This page builds upon CC-BY 4.0 content written by <a href="https://fabienmaussion.info/climate_risks/ready/02-install-jupyter.html">Fabien Maussion</a>.
-</span>

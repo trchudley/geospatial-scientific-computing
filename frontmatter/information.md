@@ -6,6 +6,8 @@ numbering: false
 
 **Unit Director:** [Tom Chudley](https://www.bristol.ac.uk/people/person/Tom-Chudley-f5b12306-221d-46bc-ac23-29c2341b5613/) | [tom.chudley@bristol.ac.uk](mailto:tom.chudley@bristol.ac.uk)
 
+**Demonstrators:** Tom Moncrief and Tian Li
+
 Lecture material, assessment information, submission points, discussion boards, course policy, and office hour booking can be found on the [Blackboard page](https://www.ole.bris.ac.uk/ultra/courses/_269813_1/outline) for this course (UoB students only). If information surrounding timetabling, assessment, and course diverges between the content of this website and the Blackboard page, **please consider the Blackboard page the authoritative source**.
 
 A full formal description of the course, including learning objectives, is availabe on the University of Bristol [Unit and Programme Catalogue](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=26%2F27&unitCode=GEOGM0081)
@@ -59,7 +61,7 @@ Large Language Models (LLMs, such as ChatGPT, Claude, GitHub CoPilot, etc.) are 
 
 An **“AI Disclosure” statement must be included** in any submitted work, identifying what tool you used to aid your report, and how you used it.
 
-:::{danger} Just because you can use AI, doesn't mean you should.
+:::{danger} Just because you _can_ use AI, doesn't mean you _should_.
 It is **strongly recommended** that students do not use AI for at least the first half of the course. AI is an effective tool for _accelerating tasks you already know how to perform_, not to _replace gaining knowledge_. This is particularly true in programming tasks: without having a solid foundation of knowledge to help you identify obvious mistakes and debug code, AI use will slow you down, not speed you up. 
 
 Studies have found that students using AI in programming-focussed courses [do not perform better than students who do not](https://doi.org/10.1186/s41239-024-00446-5); and that an overreliance on AI during the learning process can [reduce your final grade](https://cepr.org/publications/dp21577).
