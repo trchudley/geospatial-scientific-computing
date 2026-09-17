@@ -36,8 +36,8 @@ project:
     #   title: "Scientific Python"
     #   children:
     #     - file: week/02/01-numpy.ipynb
-    #     - file: week/02/02-pandas.ipynb
-    #     - file: week/02/03-plotting.ipynb
+    #     - file: week/02/02-plotting.ipynb
+    #     - file: week/02/03-pandas.ipynb
     #     - file: week/02/04-downloading-data.ipynb
     #     - file: week/02/exercises-week-02.ipynb
     # - file: week/03/index.md
