@@ -11,7 +11,7 @@ myname = "Tom"
 print("Hello world, my name is " + myname)
 ```
 
-Running `python myscript.py` in the command line will output the text `Hello world, my name is Tom`. I hope you can see how this would be useful to write long, complex processing scripts.
+Running `python myscript.py` in the command line will output the text `Hello world, my name is Tom`. As your skills in Python grow, I hope you can see how this would be useful to write long, complex processing scripts.
 
 As stated, a `.py` file is simple a text file. You could write an entire software programme using only a plain-text editor such as Notepad (Windows) or TextEdit (macOS) if you wish, and some do - although I wouldn't recommend it! As your scripts get longer and more complex, it is nice to be able to write code in an environment that can help you with the small details - such as colour-coding code blocks to help you visualise structure (“syntax highlighting”); identifying errors in your code that will break your script; or by providing built-in functionality for running and debugging code.
 

@@ -19,7 +19,7 @@ My recommendation here is for QGIS (ArcGIS tutorials are available [here](https:
 ### Opening QGIS
 
  - On the University system, QGIS is available via AppsAnywhere
- - On your own computer, you are able to install
+ - On your own computer, you are able to install following instruction on the [QGIS website](https://www.qgis.org/download/).
 
 ### Recommended tutorial
 
