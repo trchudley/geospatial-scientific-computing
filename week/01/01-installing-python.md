@@ -90,6 +90,10 @@ The prompt you opened should display a line like this:
 
 ```none
 (base) C:\Windows\System32>
+
+It might vary a little - the `(base)` is the important part! 
+
+If you can't see `(base)`, try typing `conda init cmd.exe` and restart the prompt. If `conda` itself isn't recognised, try `C:\Users\<USERNAME>\miniconda3\Scripts\conda.exe init cmd.exe` and restart the prompt -- add your username/space accordingly.
 ```
 
 :::
@@ -102,7 +106,10 @@ The terminal you opened should display a line like this:
 ```
 (base) myusername@mymachine ~ %
 ```
-It might vary a little - the `(base)` is the important part!
+It might vary a little - the `(base)` is the important part! 
+
+If `(base)` hasn't appeared, try typing `conda init`  and restart the terminal. If the command line can't find `conda` either, try initialising using `~/miniconda3/bin/conda init zsh` (assuming that you have chosen to install `miniconda` in the default userspace) and restart the terminal.
+
 :::
 
 ::::

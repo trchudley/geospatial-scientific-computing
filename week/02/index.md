@@ -22,6 +22,7 @@ After this session, you should be able to
    - [Numpy](https://practicaldatascience.org/notebooks/class_2/week_2/10_why_numpy.html)
    - [Pandas](https://practicaldatascience.org/notebooks/class_3/week_2/00_intro_to_pandas.html)
    - [Data Visualisation](https://practicaldatascience.org/notebooks/class_5/week_1/1.1.2_effective_plotting_practices.html)
+ - W3 Schools [Pandas Tutorial](https://www.w3schools.com/python/pandas/default.asp)
  - Python for Geographica Data Analysis Textbooks
    - [Chapter 3 - Introduction to data analysis](https://pythongis.org/part1/chapter-03/index.html)
    - [Chapter 4 - Introduction to data visulaisation](https://pythongis.org/part1/chapter-03/index.html)

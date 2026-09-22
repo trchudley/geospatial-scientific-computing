@@ -116,6 +116,8 @@ The steps are as follows:
     cd C:\path\to\folder
     ```
     I recommend copying the path from the file explorer - see the video below for an example.
+    
+    If you are swiching between drives (e.g. from `C:` drive to `E:` drive, you might to add an additional `\d` switch: e.g. `cd \d D:/path/to/folder`)
 3. Activate the `gsc` environment by typing
    ```
    conda activate gsc
@@ -159,7 +161,7 @@ You will notice an empty box that you can type in at the top of the new tab. Wri
 
 You will see `"Hello World"` appear beneath the cell. This is the output of the command we chose.
 
-Next, click the "+" button to add a new cell beneath the one you have connected. In the top bar, there is a drop-down menu, currently set to `Code`. Change it to `Markdown`. Within the box, write a sentence of your choosing, and then press `Shift + Enter`. You will find that this is now rendered as text. Jupyter Notebook recognises special text (headers, links, italics, bold, lists, etc.) using a special system known as "Markdown". Understanding the finer points of Markdown is not necessary in this course, but the basics can be taught in two minutes by using a friendly Markdown preview tool such as [Markdown Live Preview](https://markdownlivepreview.com/). In the linked website, edit the raw text on the left-hand panel to see how it is rendered in the right-hand panel. Then, try and replicate some of this within your own Jupyter Notebook.
+Next, click the "+" button to add a new cell beneath the one you have connected. In the top bar, there is a drop-down menu, currently set to `Code`. Change it to `Markdown`. Within the box, write a sentence of your choosing, and then press `Shift + Enter`. You will find that this is now rendered as text. Jupyter Notebook recognises special text (headers, links, italics, bold, lists, etc.) using a special system known as "Markdown". Understanding the finer points of Markdown is not necessary in this course, but the basics can be taught in two minutes by using a friendly Markdown preview tool such as [Markdown Live Preview](https://markdownlivepreview.com/). In the linked website, edit the raw text on the left-hand panel to see how it is rendered in the right-hand panel. Then, try and replicate some of this within your own Jupyter Notebook. Don't spend too much time on this - just understand how you can perform high-level formatting, such as titles, bold, italics, and links.
 
 This is the building blocks of a Jupyter Notebook: a combination of "code blocks" and "text blocks" that allow you to intersperse chunks of code with descriptions of what you are doing. By chaining these together, you can create longer descriptive documents of code and text (like much of this website!).
 
