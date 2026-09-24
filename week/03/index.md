@@ -14,7 +14,9 @@ After this session, you should be able to
 
 ## Useful Online Material
 
- - Python for Geographic Data Analysis - [Chapter 6 - Vector data processing](https://pythongis.org/part2/chapter-06/index.html)
+ - Python for Geographic Data Analysis
+   - [Chapter 5 - Getting Started with Geospatial Data](https://pythongis.org/part2/chapter-05/index.html)
+   - [Chapter 6 - Vector data processing](https://pythongis.org/part2/chapter-06/index.html)
  - Intro to GIS Programming - [GeoPandas](https://geog-312.gishub.org/book/geospatial/geopandas.html)
  - [`geopandas` User Guide](https://geopandas.org/en/stable/docs/user_guide.html)
 
