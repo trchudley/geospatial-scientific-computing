@@ -19,6 +19,12 @@ After this session, you should be able to
  - [`geopandas` User Guide](https://geopandas.org/en/stable/docs/user_guide.html)
 
 ---
+<span style="font-size: 85%;">
+Some content from this session builds upon CC-BY 4.0 content written by others. Elements aretaken from <a href="https://pythongis.org/index.html">Tenkanen <i>et al.</i></a>.
+</span>
+
+
+<!-- ---
 
 #### draft planning notes
 
@@ -39,4 +45,4 @@ Exercise: find largest cities, buffer rivers, count schools within admin areas, 
  - GeoPandas
  - CRS, Projections/Transformations - https://uwgda-jupyterbook.readthedocs.io/en/latest/modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Tissot_MapDistortion_demo.html
  - Basic geometry (points, lines, polygons)
- - Advanced topics: geometry operations (intersect, joins, buffer, intersect, union, etc)
+ - Advanced topics: geometry operations (intersect, joins, buffer, intersect, union, etc) -->
