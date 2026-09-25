@@ -80,6 +80,7 @@ Some of these data sources require creating an account, but all are free to acce
 ### Tabular Data
 
  - Weather station data
+   - [ERA-5 reanalysis point data via open-meteo historical weather API](https://open-meteo.com/en/docs/historical-weather-api)
    - [Meteostat weather and climate database](https://meteostat.net) - Conveniently download using a [simple python package](https://dev.meteostat.net/python). Try this first!
    - [MIDAS Open Data for UK meteorological stations](https://archive.ceda.ac.uk/tools/midas_stations) - Be sure to filter by "MIDAS Open Stations".
    - [UK Met Office Monthly met station data](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) - More limited datasets available but very easy to use.
