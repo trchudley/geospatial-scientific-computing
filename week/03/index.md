@@ -18,6 +18,7 @@ After this session, you should be able to
    - [Chapter 5 - Getting Started with Geospatial Data](https://pythongis.org/part2/chapter-05/index.html)
    - [Chapter 6 - Vector data processing](https://pythongis.org/part2/chapter-06/index.html)
  - Intro to GIS Programming - [GeoPandas](https://geog-312.gishub.org/book/geospatial/geopandas.html)
+ - Earth Data Science - [Intro to Spatial Vector Data in Python](https://earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/)
  - [`geopandas` User Guide](https://geopandas.org/en/stable/docs/user_guide.html)
  - UK Ordnance Survey: [A Guide to Coordinate Systems in Great Britain](https://www.ordnancesurvey.co.uk/documents/resources/guide-coordinate-systems-great-britain.pdf) (you may or may not find this interesting, depending on how deep you want to go into learning about CRS!)
 
