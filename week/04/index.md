@@ -14,12 +14,11 @@ After this session, you should be able to
 
 ## Useful Online Material
 
- - Python for Geographic Data Analysis - [Chapter 7 - Raster data processing](https://pythongis.org/part1/chapter-03/index.html)
+ - Python for Geographic Data Analysis - [Chapter 7 - Raster data processing](https://pythongis.org/part2/chapter-07/index.html)
  - Introduction to GIS Programming - [`xarray`](https://geog-312.gishub.org/book/geospatial/xarray.html) and [`rioxarray`](https://geog-312.gishub.org/book/geospatial/rioxarray.html)
  - [`xarray` User Guide](https://docs.xarray.dev/en/stable/user-guide/index.html)
  - [`rioxarray` examples](https://corteva.github.io/rioxarray/stable/examples/examples.html)
  - [`xarray-spatial` User Guide](https://xarray-spatial.readthedocs.io/en/stable/user_guide/index.html)
- - [`cartopy` examples](https://cartopy.readthedocs.io/stable/gallery/index.html) 
 
 ---
 
