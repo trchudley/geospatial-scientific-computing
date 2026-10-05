@@ -20,7 +20,9 @@ After this session, you should be able to
  - [`rioxarray` examples](https://corteva.github.io/rioxarray/stable/examples/examples.html)
  - [`xarray-spatial` User Guide](https://xarray-spatial.readthedocs.io/en/stable/user_guide/index.html)
 
----
+
+
+<!-- ---
 
 #### draft planning notes
 
@@ -47,4 +49,4 @@ After this session, you should be able to
    3. Managing projections
 
 
- - Exercises: download data, preprocess, etc.
+ - Exercises: download data, preprocess, etc. -->
