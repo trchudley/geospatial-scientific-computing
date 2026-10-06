@@ -4,10 +4,9 @@ Week 4 introduces core packages for managing and manipulating gridded raster dat
 
 :::{tip} Learning Objectives
 After this session, you should be able to
- - Understand how $n$-dimensional grids of numbers can be represented within Python using `numpy` arrays and `xarray` data structures (`Dataset` and `DataArray`).
- - Understand how `rioxarray` extends `xarray` to handle raster-type data.
- - Execute common raster operations such as clipping, reprojecting, and resampling.
- - Understand how to perform mathematical operations on raster data, using digital elevation models (DEMs) as a base example.
+ - Understand how $n$-dimensional grids of numbers can be represented and plotted within Python using `numpy` arrays.
+ - Understand the `xarray` data structure (`Dataset` and `DataArray`), and how it can be used for convenient labelling, indexing, and analysis of $n$-dimensional data.
+ - Understand how `rioxarray` extends `xarray` to handle raster-type data, and execute common raster operations such as clipping, reprojecting, and resampling.
 :::
 
 ---

@@ -59,6 +59,11 @@ Some of these data sources require creating an account, but all are free to acce
    - [Copernicus Browser](https://browser.dataspace.copernicus.eu) - the 'official' way of downloading Sentinel-2 data.
    - [NASA EarthData Search](https://search.earthdata.nasa.gov) - Not quite as intuitive to use as EarthExplorer, but useful for wider datasets beyond Landsat, e.g. the Harmonised Landsat/Sentinel-2 (HLS) dataset.
    - [SentinelHub EO Browser](https://www.sentinel-hub.com/explore/eobrowser/)
+ - Digital Elevation/Surface Models
+   - Beware the differences between a Digital Surface Model (DSM), which includes e.g. trees and buildings, and a Digtial Terrain Model (DTM), which aims to remove these components.
+   - [OpenTopography](https://portal.opentopography.org/dataCatalog?group=global) is an excellent source of openly available DEMs.
+   - [Copernicus GLO-30 DEM](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3) - a good 'default' global DSM.
+   - [UK 1 m LIDAR DTM](https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc) - many national agencies, including the UK maintain high-resolution LIDAR datasets.
  - Climate Data
    - [Copenicus Climate Data Store](https://cds.climate.copernicus.eu/) ([for ERA5 data - download tutorial here](https://confluence.ecmwf.int/spaces/CKB/pages/129135000/How+to+download+ERA5))
      - I recommend focussing on ERA5-Land data - e.g. [ERA5-Land monthly averaged data](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means?tab=download).

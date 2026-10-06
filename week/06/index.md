@@ -47,8 +47,6 @@ Consolidation week provides an opportunity for you to consider what the topic of
  - The impact of drought years on vegetation.
 :::
 
-
-
 A good tool to explore preliminary changes is the Google Earth Timelapse tool, available at [https://earthengine.google.com/timelapse/](https://earthengine.google.com/timelapse/). This might provide an indicator of whether a certain event has made a visible mark on the landscape in medium-resolution optical satellite imagery.
 
 Once you've found an event that might interest you, return to the material you have already been taught. Search for and download two suitable optical satellite data (I recommend using Landsat products) to show the before/after of your land use change, and produce appropriate figures. You may also wish to show NDI values to test that your land use change is able to be monitored using quantitative values.
