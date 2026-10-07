@@ -88,6 +88,7 @@ project:
          - file: backmatter/ai.md
          - file: backmatter/pyfiles.md
          - file: backmatter/qgis.md
+         - file: backmatter/dem.ipynb
     - file: backmatter/external_resources.md
 
   exports:  # myst-templates.github.io/plain_typst_book/
