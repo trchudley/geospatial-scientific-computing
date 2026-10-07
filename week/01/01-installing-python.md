@@ -1,18 +1,22 @@
 # Installing Python
 
-In order to run Python, it must be installed on the computer you are working from.
-
-:::{note} Install required for personal computers only
-University workstations already have the necessary software installed. We recommend you have a go at installing on your personal machines, but can fall back to the University machines if necessary.
+:::{note} Optional content: Install required for personal computers only
+University workstations already have the necessary software installed.
 :::
 
-Installing Python on your device is optional, as **all class exercises can be completed using the University workstations**. However, installing Python and related tools on your own device can be valuable for this course:
+In order to run Python, it must be installed on your device. Installing Python and related tools on your personal device is optional, as **all class exercises can be completed using the University workstations**. However, having done so can be valuable for this course:
 
- - It allows you to work on exercises at home.
+ - It allows you to work on exercises away from the University workstations.
  - You will gain experience of how Python installation works in the 'real world'.
- - The University setup of your Windows userspace is such that, after you have installed your Python environment, you must return to the same physical workstation every time.
+ - The University setup of your Windows userspace is such that, after you have installed your Python environment, you must return to the same physical workstation every time to use your Python installation.
 
-We will do our best to help you install Python on your own device, but please be aware we can't account for all possible setups and errors!
+Installation should be simple in most cases, but there are always edge cases and difficulties that emerge. This is part of the "fun" of managing your own install: learning how to troubleshoot and manage issues when they arise is a key skill. We will try and help you to do this in this class, with one caveat:
+
+:::{warning} **We cannot guarantee that your personal install will work**
+**We will do our best to help you install Python on your own device, but please be aware we can't account for all possible setups and errors!** If we encounter an issue we can't resolve conveninently in class time, we will recommend you use a University workstation.
+:::
+
+## How to we install Python?
 
 If you Google "how to install Python", you will find there are many competing ways to install Python on your computer. All (or most) of these methods will work, but some are more suited for our needs than others. If you install things in a rush, it is easily to lose track of your installation and get confused: 
 
@@ -25,12 +29,10 @@ If you Google "how to install Python", you will find there are many competing wa
 
 ```
 
-We are going to use a software called [**conda**](https://docs.conda.io/) to manage our Python installation. Conda is a 'package manager' that is commonly used across the data sciences to manage Python installs. It allows you not only install technical software like Python, but also will install any 'dependencies' (other software that your desired software needs to run) in the background. As your needs become more complex, it will also carefully manage software versions to ensure everything can play together nicely.
+We are going to use software called **conda** to manage our Python installation. Conda is a 'package manager' that is commonly used across the data sciences to manage Python installs. It allows you not only install technical software like Python, but also will install any 'dependencies' (other software that your desired software needs to run) in the background. As your needs become more complex, it will also carefully manage software versions to ensure everything can play together nicely.
 
-Unless you are experienced with Python installations (i.e. you have done this before), please follow these instructions carefully.
-
-:::{warning} What to do if you **already** have python installed on your laptop
-If you already have Anaconda, Conda, or Miniconda installed from a previous experience, you can keep your installation if it works for you. If you’d prefer to start fresh, **uninstall Anaconda first** and follow the instructions below.
+:::{warning} What to do if you **already** have Python installed on your laptop
+If you already have previous experience with Anaconda, Conda, or Miniconda, and still have it installed, you can keep your installation if it works for you. If you’d prefer to start fresh, **please uninstall your previous installation (e.g. Anaconda) first** and follow the instructions below. If you do not uninstall your previous installations, this may cause issues for you down the line.
 :::
 
 :::{danger} **If you have Windows version 10 or below, or a Chromebook**
@@ -41,6 +43,8 @@ Installing Python on a Chromebook is not straightforward, and I cannot provide s
 :::
 
 ## Install Conda
+
+Unless you are experienced with Python installations (i.e. you have done this before), **please follow these instructions carefully**. Following alternative instructions or installation routes may impact your ability to follow instructions for the rest of the course.
 
 We will install Conda using a minimal installation option, called [Miniforge](https://github.com/conda-forge/miniforge). 
 
@@ -86,14 +90,17 @@ On Windows, open the `miniforge prompt` (from the Start menu, search for and ope
 :width: 400px
 ```
 
+**Note:** be careful about getting this confused with similarly-named and similar-looking software, such as "Command Prompt", "Windows Powershell", or "Windows Terminal".
+
 The prompt you opened should display a line like this:
 
 ```none
 (base) C:\Windows\System32>
+```
 
 It might vary a little - the `(base)` is the important part! 
 
-If you can't see `(base)`, try typing `conda init cmd.exe` and restart the prompt. If `conda` itself isn't recognised, try `C:\Users\<USERNAME>\miniconda3\Scripts\conda.exe init cmd.exe` and restart the prompt -- add your username/space accordingly.
+If you can't see `(base)`, try typing `conda init cmd.exe` and restart the prompt. If `conda` itself isn't recognised, try `C:\Users\<USERNAME>\miniforge3\Scripts\conda.exe init cmd.exe` and restart the prompt -- you will have add your username accordingly, and edit the installation path if you have chosen something different from the default.
 ```
 
 :::
@@ -108,13 +115,21 @@ The terminal you opened should display a line like this:
 ```
 It might vary a little - the `(base)` is the important part! 
 
-If `(base)` hasn't appeared, try typing `conda init`  and restart the terminal. If the command line can't find `conda` either, try initialising using `~/miniconda3/bin/conda init zsh` (assuming that you have chosen to install `miniconda` in the default userspace) and restart the terminal.
+If `(base)` hasn't appeared, try typing `conda activate base`.
+
+If the command line can't find `conda` either, try the following fixes in order:
+
+1. Enter the command `~/miniforge3/bin/conda init zsh`  and restart the terminal.
+2. Enter the command `~/miniforge3/bin/conda init bash`  and restart the terminal.
+3. If this fails, manually activating `conda` with `source ~/miniforge3/bin/activate` might be temporary fix.
+
+These commands assume you have chosen to install `miniconda` in the default install location, `/Users/myusername/miniforge3/`, which `~/miniforge3/` is shorthand for. You may need to edit the path if you have installed it elsewhere.
 
 :::
 
 ::::
 
-Now you should have a terminal window open. In the terminal, type:
+Now you should have an open command line interface (CLI) window open, with `conda` running. In the terminal, type:
 
 ```bash
 conda list

@@ -46,13 +46,13 @@ project:
         - file: week/03/02-geopandas.ipynb
         - file: week/03/03-relations.ipynb
         - file: week/03/exercises-week-03.ipynb
-    # - file: week/04/index.md
-    #   title: "Raster Data"
-    #   children:
-    #     - file: week/04/01-arrays.ipynb
-    #     - file: week/04/02-xarray.ipynb
-    #     - file: week/04/03-operations.ipynb
-    #     - file: week/04/exercises-week-04.ipynb
+    - file: week/04/index.md
+      title: "Gridded Data"
+      children:
+        - file: week/04/01-arrays.ipynb
+        - file: week/04/02-xarray.ipynb
+        - file: week/04/03-rioxarray.ipynb
+        - file: week/04/exercises-week-04.ipynb
     # - file: week/05/index.md
     #   title: "Optical Satellite Data"
     #   children:

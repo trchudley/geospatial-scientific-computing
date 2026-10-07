@@ -17,7 +17,7 @@ After this session, you should be able to
  - Introduction to GIS Programming - [`xarray`](https://geog-312.gishub.org/book/geospatial/xarray.html) and [`rioxarray`](https://geog-312.gishub.org/book/geospatial/rioxarray.html)
  - [`xarray` User Guide](https://docs.xarray.dev/en/stable/user-guide/index.html)
  - [`rioxarray` examples](https://corteva.github.io/rioxarray/stable/examples/examples.html)
- - [`xarray-spatial` User Guide](https://xarray-spatial.readthedocs.io/en/stable/user_guide/index.html)
+ <!-- - [`xarray-spatial` User Guide](https://xarray-spatial.readthedocs.io/en/stable/user_guide/index.html) -->
 
 
 

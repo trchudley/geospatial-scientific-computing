@@ -20,9 +20,9 @@ To conceptualise this, we can think of a fresh Python install like a new smartph
 
 To make proper use of your phone, the vast majority of users will not be happy with the basic apps on a smartphone. We will want to customise it by installing specific apps that are tailored and useful to us (e.g. WhatsApp, TikTok, Strava, etc). On smartphones, we do this via an app store. In Python, our ‘app stores’ are known as package managers, and there are multiple options such as `pip` or `conda`. We use these to install custom packages that we can use for specialist purposes (e.g. for opening geospatial data, or applying statistical techniques).
 
-There comes a point where you may have two contradictory uses for a phone that means you need more than one - think of employees who have a personal phone and a work phone, for legal or security reasons. To make the analogy slightly more contrived, imagine for some reason that Instagram and Outlook cannot be installed on the same phone. As a result, you might want a ‘social media’ version of your phone for doomscrolling and a ‘work’ version of your phone for checking your emails. These are analogous to Python environments. 
+There comes a point where you may have two contradictory uses for a phone that means you need more than one - think of employees who have a personal phone and a work phone, for legal or security reasons. To make the analogy slightly more contrived, imagine for some reason that TikTok and Outlook cannot be installed on the same phone. As a result, you might want a ‘social media’ version of your phone for doomscrolling and a ‘work’ version of your phone for checking your emails. These are analogous to Python environments. 
 
-For example, for one task you might need the latest bleeding-edge version of a tool to take advantage of a recently added function (a required software/package/tool is known as a **dependency**). For another, you might be dependent on an ancient piece of code that requires a Python version from two decades ago. If these requirements are mutually exclusive, it won’t be possible to do both! These are known as **conflicting dependencies**. If you carry on adding more and more packages to one install, eventually your install will break. As a result, you generally want to work with small, project-specific environments with the minimal packages necessary for a project.
+To give a concrete example of why you might need different environments: imagine that for one task you might need the latest bleeding-edge version of a tool to take advantage of a recently added function (a required software/package/tool is known as a **dependency**). For another, you might be dependent on an ancient piece of code that requires a Python version from two decades ago. If these requirements are mutually exclusive, it won’t be possible to do both! These are known as **conflicting dependencies**. If you carry on adding more and more packages to one install, eventually your install will break. As a result, you generally want to work with small, project-specific environments with the minimal packages necessary for a project.
 
 ## Prerequisites
 
@@ -46,9 +46,11 @@ In the [previous page](./01-installing-python.md), we ensured that the conda pac
 
 ::::
 
+If this isn't the case, please try some of the troubleshooting tips identified on the previous page.
+
 ## Creating environments
 
-When you have the command prompt open, you can check your environemnts by writing the following command, and hitting the return key:
+When you have the command prompt open, you can check your environments by writing the following command, and hitting the return key:
 
 ```bash
 conda env list

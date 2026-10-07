@@ -16,11 +16,18 @@ After this session, you should be able to
  - Spatial Thoughts Tutorials -- [Processing Satellite Images with `xarray`](https://www.geopythontutorials.com/notebooks/xarray_processing_satellite_images.html)
  - Earth Data Science Textbook -- [Multispectral Remote Sensing Data in Python](https://earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/)
 
----
+<!-- ---
 
 #### draft planning notes
 
 NEED TO SPLIT THESE OUT
+
+
+ - mathematical operations:
+   - Focal operations: slope, hillshade, smoothing, etc.
+   - Local operations: decision trees?
+   - Global operations: average stats, etc.
+
 
  - sampling raster data
    - Zonal statistic
@@ -29,4 +36,4 @@ NEED TO SPLIT THESE OUT
  - Downloading data?
 
  - rasterisating and vectorisation
- - band maths?
+ - band maths? -->
