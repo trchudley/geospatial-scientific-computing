@@ -4,9 +4,11 @@ Week 7 introduces more advanced method to asses change through time using combin
 
 :::{tip} Learning Objectives
 After this session, you should be able to
- - Combine `geopandas` and `xarray` to extract zonal statistics from gridded data.
- - Think about how to assess change through time from discrete raster data.
- - Use `xarray` to perform time-series analaysis on large $n$-dimensional climate datasets, such as reanalysis data.
+ - Understand how vector data can be used to clip and manipulate raster data.
+ - Using geopandas to sample raster data?
+ - Download chunks of data?
+ - Combine `geopandas` and `rioxarray` to extract zonal statistics from raster data.
+ - Combine `geopandas` and `xarray` to extract zonal time-series from gridded data.
 :::
 
 ---

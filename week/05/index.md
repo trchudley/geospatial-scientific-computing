@@ -25,8 +25,8 @@ After this session, you should be able to
  - [ESA Sentinel-2 landing page](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2)
  - [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
  - [Copernicus Data Browser for Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)
-<!-- ---
 
+<!-- ---
 #### draft planning notes
 
 NEED TO SPLIT THESE OUT
