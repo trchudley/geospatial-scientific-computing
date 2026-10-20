@@ -23,6 +23,17 @@ After this session, you should be able to
 
 #### draft planning notes
 
+
+Highlight good practice:
+ - Use meaningful variable names and clear code structure.
+ - Keep raw data separate from processed outputs.
+ - Record data sources, units, CRS and relevant processing decisions.
+ - Use functions when a calculation needs to be repeated.
+ - Check assumptions and validate results.
+ - Keep analysis steps executable in a logical order.
+
+Avoid reliance on undocumented manual changes to intermediate files.
+
  - Intro: what does it mean for work to be 'rigourous' and 'reproducible'? how can git and github assist with this?
  - What is git: repositories, commits, history
  - How to install git

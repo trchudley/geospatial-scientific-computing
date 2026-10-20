@@ -90,6 +90,7 @@ project:
         - file: recipes/download-sentinel-2.ipynb
         - file: recipes/download-copdem.ipynb
         - file: recipes/dem.ipynb
+        - file: recipes/sar.ipynb
     - title: "Appendix"
       children:
          - file: backmatter/ai.md
