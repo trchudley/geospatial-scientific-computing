@@ -89,13 +89,13 @@ project:
         - file: recipes/download-landsat.ipynb
         - file: recipes/download-sentinel-2.ipynb
         - file: recipes/download-copdem.ipynb
+        - file: recipes/dem.ipynb
     - title: "Appendix"
       children:
          - file: backmatter/ai.md
          - file: backmatter/pyfiles.md
          - file: backmatter/qgis.md
          - file: backmatter/mamba.md
-         - file: backmatter/dem.ipynb
     - file: backmatter/external_resources.md
 
   exports:  # myst-templates.github.io/plain_typst_book/

@@ -22,9 +22,17 @@ After this session, you should be able to
  - [`xarray-spatial` zonal module](https://xarray-spatial.readthedocs.io/en/stable/user_guide/zonal.html)
  - [`xarray` User Guide](https://docs.xarray.dev/en/stable/user-guide/index.html)
 
----
 
-#### draft planning notes
+
+<!-- #### draft planning notes
+
+PATHWAY:
+
+ - Geopandas and xarray, plot together
+ - Clip
+ - Sample raster data
+ - zonal statistics
+ - zonal time-series
 
 
 EITHER: Geospatial Analysis II -OR- Accessing Data Programatically
@@ -36,4 +44,4 @@ EITHER: Geospatial Analysis II -OR- Accessing Data Programatically
  - Time-series plots through time
  - Area average though time
 
-Use of a STAC API to download datacube data?
+Use of a STAC API to download datacube data? -->
