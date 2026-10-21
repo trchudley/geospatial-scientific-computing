@@ -62,13 +62,13 @@ project:
         - file: week/05/exercises-week-05.ipynb
     - file: week/06/index.md
       title: "Consolidation Week"
-    - file: week/07/index.md
-      title: "Spatiotemporal Analysis"
-      children:
-        - file: week/07/01-zonal-statistics.ipynb
-        - file: week/07/02-change-analysis.ipynb
-        - file: week/07/03-timeseries-analysis.ipynb
-        - file: week/07/exercises-week-07.ipynb
+    # - file: week/07/index.md
+    #   title: "Spatiotemporal Analysis"
+    #   children:
+    #     - file: week/07/01-zonal-statistics.ipynb
+    #     - file: week/07/02-change-analysis.ipynb
+    #     - file: week/07/03-timeseries-analysis.ipynb
+    #     - file: week/07/exercises-week-07.ipynb
     # - file: week/08/index.md
     #   title: "Google Earth Engine"
     #   children:
