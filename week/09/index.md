@@ -19,9 +19,12 @@ After this session, you should be able to
  - Software Carpentry -- [Version Control with Git](https://swcarpentry.github.io/git-novice/)
  - [GitHub Learn](https://learn.github.com/skills)
 
----
-
+<!-- 
 #### draft planning notes
+
+1. How to construct a useful repository
+2. Backing up to Git (git clone, add, etc.)
+3. Collaboration (forking, pulling)
 
 
 Highlight good practice:
@@ -48,4 +51,4 @@ Exercise:
  - Push
  - Pull request
 
-
+ -->

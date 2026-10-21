@@ -8,5 +8,4 @@ This section contains "recipes" - short notebooks that provide an example of how
 
 <!-- 
  - Batch combine datasets through odc-stac?
- - Sentinel-1?
  -->

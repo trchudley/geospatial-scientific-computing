@@ -26,6 +26,16 @@ After this session, you should be able to
 
 <!-- #### draft planning notes
 
+1. Combining vector and gridded data
+   1. Plotting
+   2. Clipping
+2. Point and spatial sampling
+   1. Sampling
+   2. Calculating zonal statistics
+3. Time-series analysis
+   1. Differencing: relative change, percent change, thresholding
+   2. Creating statistics through time
+
 PATHWAY:
 
  - Geopandas and xarray, plot together
@@ -34,14 +44,4 @@ PATHWAY:
  - zonal statistics
  - zonal time-series
 
-
-EITHER: Geospatial Analysis II -OR- Accessing Data Programatically
-
- - xarray time and band dimensions, pandas change through time
- - time aggregation: monthly, annual, seasonal
- - differencing: relative change, percent change, thresholding
- - Classifiation: water, vegetation, snow
- - Time-series plots through time
- - Area average though time
-
-Use of a STAC API to download datacube data? -->
+-->
