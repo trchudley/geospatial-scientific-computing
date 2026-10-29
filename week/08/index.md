@@ -1,6 +1,6 @@
 # Introduction
 
-Week 9 introduces Google Earth Engine as one method for performing large-scale cloud computing.
+Week 8 introduces Google Earth Engine as one method for performing large-scale cloud computing.
 
 :::{tip} Learning Objectives
 After this session, you should be able to

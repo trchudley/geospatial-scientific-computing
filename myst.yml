@@ -76,12 +76,13 @@ project:
     # - file: week/09/index.md
     #   title: "Version Control"
     #   children:
-    #     - file: week/09/01-what-is-git.md
-    #     - file: week/09/02-install-git.md
+    #     - file: week/09/01-git-setup.md
+    #     - file: week/09/02-personal-repo.md
+    #     - file: week/09/03-collaboration.md
     #     - file: week/09/exercises-week-09.md
     # - file: week/10/index.md
     #   title: "Final Project"
-    #   # children:
+    #   # children: 
     #   #   - file: pages/chapters/content.md
     - file: recipes/index.md
       title: "Recipes"

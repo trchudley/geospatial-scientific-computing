@@ -1,6 +1,6 @@
 # Introduction
 
-Week 8 introduces `git` and GitHub for version control.
+Week 9 introduces `git` and GitHub for version control, whilst also outlining how we might produce sensibly organised projects to share meaningful open-source science. 
 
 :::{tip} Learning Objectives
 After this session, you should be able to
