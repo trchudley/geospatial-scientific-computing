@@ -29,4 +29,4 @@ During Summer 2026, this course is under construction for teaching Sep-Dec 2026.
 
 ## License
 
- The content of this repository is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), and the embedded source code is licensed under the [MIT license](https://opensource.org/license/MIT).
+ The content of this course is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), and the embedded source code is licensed under the [MIT license](https://opensource.org/license/MIT).

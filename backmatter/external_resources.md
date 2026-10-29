@@ -48,7 +48,7 @@ numbering: false
   - [Examples gallery](https://geopandas.org/en/stable/gallery/index.html)
 - [`xarray`](https://docs.xarray.dev)
   - [`xarray` tutorial](https://tutorial.xarray.dev/intro.html)
-  - [`rioxarray`](https://corteva.github.io/rioxarray)
+  - [`rioxarray`](https://vylor.github.io/rioxarray)
   - [`xarray-spatial`](https://xarray-spatial.readthedocs.io)
 - [`pystac-client`](https://pystac-client.readthedocs.io)
   - [`odc-stac`](https://odc-stac.readthedocs.io)

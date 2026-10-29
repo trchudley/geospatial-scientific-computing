@@ -62,13 +62,13 @@ project:
         - file: week/05/exercises-week-05.ipynb
     - file: week/06/index.md
       title: "Consolidation Week"
-    # - file: week/07/index.md
-    #   title: "Spatiotemporal Analysis"
-    #   children:
-    #     - file: week/07/01-zonal-statistics.ipynb
-    #     - file: week/07/02-change-analysis.ipynb
-    #     - file: week/07/03-timeseries-analysis.ipynb
-    #     - file: week/07/exercises-week-07.ipynb
+    - file: week/07/index.md
+      title: "Spatiotemporal Analysis"
+      children:
+        - file: week/07/01-combined-vector-gridded.ipynb
+        - file: week/07/02-sampling-data.ipynb
+        - file: week/07/03-temporal-change.ipynb
+        - file: week/07/exercises-week-07.ipynb
     # - file: week/08/index.md
     #   title: "Google Earth Engine"
     #   children:
@@ -91,6 +91,7 @@ project:
           - file: recipes/download-landsat.ipynb
           - file: recipes/download-sentinel-2.ipynb
           - file: recipes/download-copdem.ipynb
+          - file: recipes/batch-download-landsat.ipynb
         - file: recipes/dem.ipynb
         - file: recipes/otsu-threshold.ipynb
         - file: recipes/sar.ipynb

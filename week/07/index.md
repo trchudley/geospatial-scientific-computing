@@ -1,14 +1,12 @@
 # Introduction
 
-Week 7 introduces more advanced method to asses change through time using combinations of vector and raster datasets.
+Week 7 introduces further ways we can interact with vector and gridded data to quantify change across space and time.
 
 :::{tip} Learning Objectives
 After this session, you should be able to
  - Understand how vector data can be used to clip and manipulate raster data.
- - Using geopandas to sample raster data?
- - Download chunks of data?
- - Combine `geopandas` and `rioxarray` to extract zonal statistics from raster data.
- - Combine `geopandas` and `xarray` to extract zonal time-series from gridded data.
+ - Obtain spatial samples and statistics (point, line, and polygon) of gridded data.
+ - Think about how to scale these tools to extract information across time-series.
 :::
 
 ---
@@ -21,6 +19,8 @@ After this session, you should be able to
    - [`xarray` for Climate Data Processing](https://www.geopythontutorials.com/notebooks/xarray_aggregating_time_series.html)
  - [`xarray-spatial` zonal module](https://xarray-spatial.readthedocs.io/en/stable/user_guide/zonal.html)
  - [`xarray` User Guide](https://docs.xarray.dev/en/stable/user-guide/index.html)
+ - [`geocube` User Guide](https://vylor.github.io/geocube/stable/)
+ - [Keeley _et al._ (2009)](https://www.researchgate.net/publication/228638145_Fire_intensity_fire_severity_and_burn_severity_a_brief_review_and_suggested_usage):  Fire intensity, fire severity and burn severity: a brief review and suggested usage  
 
 
 
@@ -29,6 +29,7 @@ After this session, you should be able to
 1. Combining vector and gridded data
    1. Plotting
    2. Clipping
+   3. Vectorisation
 2. Point and spatial sampling
    1. Sampling
    2. Calculating zonal statistics
