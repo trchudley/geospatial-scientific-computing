@@ -11,6 +11,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Spatial Thoughts Tutorials -- [Processing Satellite Images with `xarray`](https://www.geopythontutorials.com/notebooks/xarray_processing_satellite_images.html)

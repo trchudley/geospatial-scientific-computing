@@ -17,6 +17,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Software Carpentry -- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)

@@ -11,6 +11,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Python for Geographic Data Analysis - [Chapter 7 - Raster data processing](https://pythongis.org/part2/chapter-07/index.html)

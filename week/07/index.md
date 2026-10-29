@@ -11,6 +11,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Project Pythia Foundations -- [`xarray`](https://foundations.projectpythia.org/core/xarray/)

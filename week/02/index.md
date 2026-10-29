@@ -12,6 +12,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Project Python Foundations Course
@@ -36,7 +42,7 @@ After this session, you should be able to
 
 ---
 <span style="font-size: 85%;">
-Some content from this session builds upon CC-BY 4.0 content written by others. Elements of the `numpy` and `matplotlib` is taken from <a href="https://foundations.projectpythia.org/">Project Pythia</a> and <a href="https://pythongis.org/index.html">Tenkanen <i>et al.</i></a>.
+Some content from this session builds upon CC-BY 4.0 content written by others. Elements of the `numpy` and `matplotlib` material are taken from <a href="https://foundations.projectpythia.org/">Project Pythia</a> and <a href="https://pythongis.org/index.html">Tenkanen <i>et al.</i></a>.
 </span>
 
 
