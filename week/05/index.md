@@ -31,6 +31,7 @@ After this session, you should be able to
  - [ESA Sentinel-2 landing page](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2)
  - [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
  - [Copernicus Data Browser for Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)
+ - [Digital Earth Africa - Real World Examples of Applying Satellite Data](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html)
 
 <!-- ---
 #### draft planning notes

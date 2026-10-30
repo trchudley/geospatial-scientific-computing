@@ -26,7 +26,7 @@ Using AI to write code is one of the most well-known use cases for large languag
 
 ### Why you shouldn't use AI
 
-Even though I will not stop you, I do not _recommend_ using AI throughout most of this course. The key takeaways of this course should not be the ability to write code: it should be the ability to understand foundational programming concepts and be able to apply them to geospatial problems. AI will be able to help you do this, but it cannot do this without the base level of understanding that this course aims to provide.
+Even though I will not stop you, I do not _recommend_ using AI throughout most of this course - especially for the opening introductory sessions. The key takeaways of this course should not be the ability to write code: it should be the ability to understand foundational programming concepts and be able to apply them to geospatial problems. AI will be able to help you do this, but it cannot do this without the base level of understanding that this course aims to provide.
 
 #### AI will not help you in the practical components of managing code and data.
 
@@ -46,9 +46,17 @@ Unfortunately, **the only way to leearn this basic programming knowledge is by l
 
 If you believe we are in [an AI bubble](https://en.wikipedia.org/wiki/AI_bubble), then it is likely that the current access we have to free or cheap state-of-the-art LLMs is not going to continue indefinitely. Understanding programming fundamentals will be even more necessary in this world, where costs are high, usage caps are common, or services are simply not available to you.
 
-### Where you should use AI
+### Where and how you should use AI
 
-An example of how to use AI is contained within one of the later weeks within this course.
+For the purposes of this introductory course, I would try and keep the following principles in mind for using AI in coding:
 
+ - Use it accelerate things you already know how to do (e.g. writing 'boilerplate' code), rather using it to accomplish things you don't know about.
+ - Use it introduce you to new concepts and tools for a specific defined task (that you can then critically assess and learn how to use). Be careful that you are being introduced to commonly used and actively maintained tools, rather than something regurgitated from an out-of-date tutorial somewhere in the training data...
+ - Use it to stitch together existing code, tools and workflows that you already have to achieve new goals.
+ - Use it put together scrappy code you already have (and you know works) into more complete workflows.
+ - Use it to critique approaches you have, including trying to find ways of making things more efficient.
+ - Use it to solve short problems on the scale of a few lines of code, rather than trying to write extended complete workflows.
 
+Proper and iterative use of AI should make you a better programmer, not replace your ability to code. 
 
+For a thorough introduction and perspective on the use of AI for geospatial work from someone who uses it actively, it is worth consulting this [GIS with AI guide](https://jo-wilkin.github.io/gis-ai-manual/) - although I am not necessarily endorsing everything within!

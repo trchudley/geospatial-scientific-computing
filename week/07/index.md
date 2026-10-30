@@ -24,6 +24,10 @@ After this session, you should be able to
    - [`xarray` for Raster Data Processsing](https://www.geopythontutorials.com/notebooks/xarray_raster_styling_analysis.html)
    - [`xarray` for Climate Data Processing](https://www.geopythontutorials.com/notebooks/xarray_aggregating_time_series.html)
  - [`xarray` User Guide](https://docs.xarray.dev/en/stable/user-guide/index.html)
+ - Digital Earth Africa Recipes
+   - [Burnt area mapping using Sentinel-2 data](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Burnt_area_mapping.html)
+   - [Generating composite images](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/Generating_composites.html)
+   - [Rasterising vectors and vecorising rasters](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/Rasterise_vectorise.html)
  - Optional additional packages:
    - [`geocube` User Guide](https://vylor.github.io/geocube/stable/)
    - [`exactextract` User Guide](https://isciences.github.io/exactextract/index.html)
