@@ -16,8 +16,9 @@ Data scaling - dask?
 
  - glob, functions, and looping to scale data
  - Otsu threshold?
- - Also: Random forest?
- - Segment Anything Model?
+ - Introductory ML: Random forest?
+ - Segementation/Segment Anything Model?
+ - More DEM stuff
  - Satellite embeddings? -- https://www.geopythontutorials.com/notebooks/xarray_embeddings_similarity_search.html
  - Sentinel-1 -- https://eopf-toolkit.github.io/eopf-101/06_eopf_zarr_in_action/69_coastal_water_dynamics_s1.html
 

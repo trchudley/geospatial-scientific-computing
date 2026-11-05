@@ -12,6 +12,12 @@ After this session, you should be able to
 
 ---
 
+:::{toc}
+:context: children
+:::
+
+---
+
 ## Useful Online Material
 
  - Project Pythia Foundations -- [Getting Started with GitHub](https://foundations.projectpythia.org/foundations/getting-started-github/)

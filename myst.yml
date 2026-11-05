@@ -69,10 +69,13 @@ project:
         - file: week/07/02-sampling-data.ipynb
         - file: week/07/03-temporal-change.ipynb
         - file: week/07/exercises-week-07.ipynb
-    # - file: week/08/index.md
-    #   title: "Google Earth Engine"
-    #   children:
-    #     - file: week/08/exercises-week-08.ipynb
+    - file: week/08/index.md
+      title: "Cloud Computing"
+      children:
+        - file: week/08/01-basic-gee.ipynb
+        - file: week/08/02-composite-data.ipynb
+        - file: week/08/03-time-series.ipynb
+        - file: week/08/exercises-week-08.ipynb
     # - file: week/09/index.md
     #   title: "Version Control"
     #   children:
@@ -87,15 +90,24 @@ project:
     - file: recipes/index.md
       title: "Recipes"
       children:
-        - title: "Data Search and Download"
+        - title: "STAC Downloads"
           children:
           - file: recipes/download-landsat.ipynb
           - file: recipes/download-sentinel-2.ipynb
           - file: recipes/download-copdem.ipynb
           - file: recipes/batch-download-landsat.ipynb
-        - file: recipes/dem.ipynb
-        - file: recipes/otsu-threshold.ipynb
-        - file: recipes/sar.ipynb
+        - title: "Google Earth Engine"
+          children:
+          - file: recipes/gee-single.ipynb
+          - file: recipes/gee-composite.ipynb
+          - file: recipes/gee-seasonal-composite.ipynb
+          - file: recipes/gee-time-series.ipynb
+          - file: recipes/gee-era5.ipynb
+        - title: "Other Recipes"
+          children:
+          - file: recipes/otsu-threshold.ipynb
+          - file: recipes/dem.ipynb
+          - file: recipes/sar.ipynb
     - title: "Appendix"
       children:
          - file: backmatter/ai.md
