@@ -17,6 +17,10 @@ numbering: false
  - [Introduction to Earth Data Science Textbook](https://earthdatascience.org/courses/intro-to-earth-data-science/)
  - [Intermediate Earth Data Science Textbook](https://earthdatascience.org/courses/use-data-open-source-python/)
  <!-- - [GIS with AI: A Practical Guide to Claude Code](https://jo-wilkin.github.io/gis-ai-manual/) -->
+ - [An Introduction to the Google Earth Engine Python API](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api)
+ - [Digital Earth Africa](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
+   - [Frequently Used Code](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/index.html)
+   - [Real World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html)
 
 ### Other Geospatial Python Courses
 
@@ -53,10 +57,10 @@ numbering: false
   - [`xarray-spatial`](https://xarray-spatial.readthedocs.io)
 - [`pystac-client`](https://pystac-client.readthedocs.io)
   - [`odc-stac`](https://odc-stac.readthedocs.io)
-- [Digital Earth Africa](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
- - [Frequently Used Code](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/index.html)
- - [Real World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html)
-
+- Google Earth Engine
+  - [`ee`](https://developers.google.com/earth-engine/apidocs)
+  - [`geemap`](https://courses.geemap.org/)
+  - [`xee`](https://xee.readthedocs.io/en/latest/)
 
 ## Data Resources
 

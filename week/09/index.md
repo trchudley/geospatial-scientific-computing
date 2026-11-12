@@ -7,7 +7,7 @@ After this session, you should be able to
  - Understand the purpose of version control.
  - Use and understand basic `git` functionality such as `add`, `commit`, `push`, and `pull` to work with `git` and GitHub repositories.
  - Use tools such as forking, branching, pull requests to work collaboratively on a GitHub repository.
- - Undestand the necessary items for sharing reproducible and sharable code, such as licenses and `README.md` files.
+ - Understand the necessary items for sharing reproducible and sharable code, such as licenses and `README.md` files.
 :::
 
 ---
@@ -24,6 +24,13 @@ After this session, you should be able to
  - Earth Data Science Textbook -- [Git and GitHub](https://earthdatascience.org/courses/intro-to-earth-data-science/git-github/)
  - Software Carpentry -- [Version Control with Git](https://swcarpentry.github.io/git-novice/)
  - [GitHub Learn](https://learn.github.com/skills)
+ - [Git Pro Book](https://git-scm.com/book/en/v2)
+ - ["The git workflow"](https://www.asmeurer.com/git-workflow/) - for contributing to open-source repositories.
+---
+<span style="font-size: 85%;">
+Some content from this session builds upon CC-BY 4.0 content written by others. The broad structure of the `git` tutorial, and the images and text for the collaborative workflow description, is adapted from content written by <a href="https://ryan-lab-duke.github.io/gds-applications-site/lectures/unit3/lecture-9.html">Johnny Ryan</a>
+</span>
+
 
 <!-- 
 #### draft planning notes
