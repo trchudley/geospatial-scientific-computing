@@ -22,7 +22,7 @@ On the GitHub repository, make some minor edit to the `README.md` file, and comm
 
 ### Collaborative Workflow
 
-Fork the repo [`github.com/trchudley/geogm0081-practice-repo-2026`](https://github.com/trchudley/geogm0081-practice-repo-2026).
+Fork the repo [`github.com/trchudley/geogm0081-exercise-repo`](https://github.com/trchudley/geogm0081-exercise-repo).
 
 Clone your forked repo to your local environment, and create a new branch to work in. When done, add a new directory, titled according to your first name (this will end up on a public repository, so don't include anything you don't want public!). Within this directory, add a `README.md` file. Within this file, tell me about the favourite place (park, museum, restaurent, etc...) you have discovered whilst you have been living in Bristol.
 

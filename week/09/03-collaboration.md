@@ -4,7 +4,7 @@ In a modern workflow, it is unlikely that we will be working on files entirely b
 
 We already use tools every day to collaborate with others on some virtual data files. For example, Microsoft Office and Google Docs provide ways for teams of people to simultaneously work together on documents, spreadsheets, etc.
 
-However, I hope you can see how this might be impractical to do on code-based projects. For instance, code will only run if it is all in working order. How are you supposed to check changes you have made to the code run successfully, if I am trying to edit code elsewhere at the same time? And how does this work across teams of tens or hundreds all trying to work on different components of a project, relying on everything else staying the same?
+However, I hope you can see how this might be impractical to do on code-based projects. For instance, code will only run if it is all in working order. How are you supposed to check changes you have made to the code run successfully, if I am also trying to edit code elsewhere at the same time? And how does this work across teams of tens or hundreds all trying to work on different components of a project, relying on everything else staying the same?
 
 ## A centralised pull/push workflow
 
@@ -20,8 +20,8 @@ From what we now understand about `git` and GitHub, I want us to now imagine a s
 
 ```
 
-1. One team member makes changes to files on their local machine, periodically **committing** these changes (i.e. taking a snapshot).
-2. When they are finished working, this first user can **push** their changes back to the central repository.
+2. One team member makes changes to files on their local machine, periodically **committing** these changes (i.e. taking a snapshot).
+3. When they are finished working, this first user can **push** their changes back to the central repository.
 
 ```{figure} /img/gh-2-john-push.svg
 :alt: the first user pushes to the remote repository
@@ -51,9 +51,9 @@ From what we now understand about `git` and GitHub, I want us to now imagine a s
 
 ```
 
-1. The team member then resolves any conflicts between their local version and the central repository. A **conflict** happens when both people have changed the same lines of the same file: `git` can't know which version to keep, so it marks the clashing sections in the file and asks the human to decide.
+6. The team member then resolves any conflicts between their local version and the central repository. A **conflict** happens when both people have changed the same lines of the same file: `git` can't know which version to keep, so it marks the clashing sections in the file and asks the human to decide.
 
-2. Once finished, the team member can then commit and push their changes to the central repo.
+7. Once finished, the team member can then commit and push their changes to the central repo.
 
 ```{figure} /img/gh-5-mary-successful-push.svg
 :alt: the second user successfully pushes to the remote repository
@@ -142,11 +142,9 @@ To https://github.com/myusername/geogm0081-week-9.git
 branch 'new-code' set up to track 'origin/new-code'.
 ```
 
-<!-- ORIGINAL:
-Return to the GitHub repository page. You should be able to view the new branch. You have the option to create a **pull request**: make one now. 
--->
+`--set-upstream` makes it so that `new-code` becomes the new 'default' remote branch to push to.
 
-Return to the GitHub repository page (e.g. github.com/myusername/geogm0081-week-9). You should be able to view the new branch (use the branch drop-down menu, which currently reads `main`). You should also see a yellow banner with a **Compare & pull request** button: this is the process through which we will initiate merging the branch changes back into `main`. 
+Return to your GitHub repository page (e.g. github.com/myusername/geogm0081-week-9). You should be able to view the new branch (use the branch drop-down menu, which currently reads `main`). You should also see a yellow banner with a **Compare & pull request** button: this is the process through which we will initiate merging the branch changes back into `main`. 
 
 Click it, leave a title and description, and click **Create pull request**. The team leader (in this case, you) now has the opportunity to **review** the pull request and discuss any changes with the team member in a forum-like format.
 
@@ -276,10 +274,4 @@ git branch -d branch-name  # delete the old branch
 
 ## Summary
 
-<!-- ORIGINAL:
-We have thougth about how
--->
-
 We have thought about how `git` and GitHub allow teams to work on the same code without getting in each other's way. Branches let you develop changes in isolation from a working `main` branch; pull requests provide a way for those changes to be reviewed, discussed, and merged back in; and forks let anybody propose improvements to public projects without needing permission to push to them directly. 
-
-In the exercises, you will put these skills into practice by contributing to a shared repository.

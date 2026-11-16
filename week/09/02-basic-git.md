@@ -145,10 +145,10 @@ Changes to be committed:
 ```
 
 :::{note}
-The `.` means "this directory", and tells `git` to stage **all new and changed files within the directory** (except those listed in a `.gitignore` file). You can also stage individual files by name, e.g. `git add README.md`.
+The `.` is shorthand for "the current directory we are in", and tells `git` to stage all new and changed files within the directory and its subdirectories (except those listed in a `.gitignore` file). You can also stage individual files by name, e.g. `git add README.md`.
 :::
 
-We can then use `git commit` to begin tracking our files, leaving a note to remind us what we have included in the current commit.
+We can then use `git commit` to begin tracking our files, leaving a message (indicated by an `-m` flag) to briefly describe what changes were included in the current commit.
 
 ```bash
 git commit -m "initial commit"
@@ -158,10 +158,6 @@ git commit -m "initial commit"
  1 file changed, 3 insertions(+)
  create mode 100644 README.md
 ```
-
-:::{note}
-The `-m` flag is a message that we use to briefly describe what the changes were.
-:::
 
 Checking with `git status` shows that our files now match the most recent commit:
 
@@ -175,7 +171,7 @@ nothing to commit, working tree clean
 
 ### Modify a Repository
 
-Let's add another file to the project. Create a new file called `roll_die.py`, containing the following code:
+Let's add another file to the project. Create a new file called `roll_die.py`, containing the following text:
 
 ```python
 import random
@@ -331,18 +327,16 @@ HEAD is now at e829ea6 initial commit
 ```
 
 :::{tip}
-In practice, you probably won't be rolling back and forth too much unless things have gone wrong: if you find yourself doing so, do so very carefully (particularly when using `git reset --hard`), as it is possible to lose work!
+In practice, you probably won't be rolling back and forth too much unless things have gone wrong: if you find yourself doing so, do so very carefully, as it easy to lose track of where you and and (particularly when using `git reset --hard`) possible to lose work entirely!
 :::
 
 ## Remote Repositories (Working with GitHub)
 
 The real power of using `git` for sharing and collaboration comes from using a "remote repository". In this course, we will be using GitHub to host our remote repositories.
 
-:::{note} Difference between `git` and GitHub
 `git` and GitHub are often used interchangeably, but it is important to note they are not the same. `git` is a local, open-source version control system that can be used to keep track of changes locally. GitHub is an online web platform (for-profit, owned by Microsoft) that allows you to host your repositories online. Online hosting is a real strength that massively enhances your ability to perform open and reproducible science.
 
 GitHub is, ultimately, the biggest game in town, but it’s important to note that it isn’t necessarily part of the same feel-good open-source community as the rest of the tools I’ve been recommending. There are alternatives, such as GitLab (which is itself open-source) and Codeberg (run by a non-profit), which work with exactly the same `git` commands. However, for various reasons they have much smaller communities, so you are less likely to find other people's code there.
-:::
 
 To set up a remote repository, first go to [the GitHub main page](https://github.com/) and create a new repository (click `+` in the header, and then **New repository**).
 
@@ -385,13 +379,9 @@ To https://github.com/myusername/geogm0081-week-9.git
 branch 'main' set up to track 'origin/main'.
 ```
 
-:::{note}
 The first time we use this command we have to include `-u origin main` to define which branch we want to upload to (i.e. the `main` branch of our remote repository called `origin`). `-u` is short for `--set-upstream`: it tells `git` to remember this connection, so from now on you can simply run `git push` (and `git pull`) without any extra arguments.
-:::
 
-Now view your repository on the GitHub page (e.g. github.com/myusername/geogm0081-week-9). You should see the `README.md` and `roll_die.py` files.
-
-Now, click **Add file** > **Create new file**. Create a new markdown file (called e.g. `test.md`) with some dummy text. Commit this within the browser, leaving an appropriate commit message.
+Now view your repository on the GitHub page (e.g. github.com/myusername/geogm0081-week-9). You should see the `README.md` and `roll_die.py` files. Click **Add file** > **Create new file**. Create a new markdown file (called e.g. `test.md`) with some dummy text. Commit this within the browser, leaving an appropriate commit message.
 
 We can run `git fetch` now to compare our local repository with our (changed) remote repository and download the new commits from the remote. Note that this command does not modify the files in our local repository.
 
@@ -425,9 +415,7 @@ Fast-forward
  create mode 100644 test.md
 ```
 
-:::{note}
 The phrase “fast-forward” means that the commit in the remote repository was ahead of the commit in the local repository, so Git simply moves the pointer forward. `git pull` actually does a `git fetch` for you first, so in practice you can skip running `git fetch` separately.
-:::
 
 Now when we run `git status`, the second line tells us that our repository is up to date with `origin/main`, the remote repository.
 

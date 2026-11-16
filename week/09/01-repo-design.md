@@ -78,13 +78,13 @@ Code is released under the MIT License (see `LICENSE`).
 
 ### LICENSE file
 
-If you are going to share the code publicly, you should have a license which shows the terms under which you have released the code. There are [risks of not having a license when you share code publicly](https://choosealicense.com/no-permission/): without one, default copyright law applies, which may allow (or disallow) use that you do not intend!
+If you are going to share the code publicly, you should have a license which shows the terms under which you have released the code. There are [risks of not having a license when you share code publicly](https://choosealicense.com/no-permission/). Without one, default copyright law applies, which may allow people to use you code in ways you do not want - or even _disallow_ uses that you do want!
 
 A license is what definitively makes a project "open-source" - it is the "free as in speech" part of the open-source philosophy, explicitly allowing others to use and adapt the code.
 
 For a generic coding project, the [MIT license](https://opensource.org/license/mit) is probably the most simple and permissive license you can choose. It does two things:
 
- 1. It allows anyone to use, copy, modify, share, and even sell your code (including in non-open-source projects), **on the condition** that they include your copyright notice and a copy of the license with it. In plain language: you must be properly credited.
+ 1. It allows anyone to use, copy, modify, share, and even sell your code (including in non-open-source projects), **on the condition** that they include your copyright notice and a copy of the license with it. In plain language: you must be properly credited any time someone uses your code.
  2. It emphasises that the code is provided "as is", without any warranty, so you are not liable if something goes wrong when somebody else uses it.
 
 To release your code under a license, you can include a text file called `LICENSE` (no file type suffix) that contains the text of the license. For instance, the MIT license is the following text, making sure to add the year and your name where identified:
@@ -127,7 +127,7 @@ Additional restrictions offered by some licenses include:
 
 A guide to choosing a license is available at [choosealicense.com](https://choosealicense.com/).
 
-This course material is released under the MIT license for code and CC-BY 4.0 for text and figures.
+You can have different parts of a repository under different licenses. For instance, this course material is released under the MIT license for code and CC-BY 4.0 for text and figures.
 
 ### Environment/Requirements file
 
@@ -137,7 +137,7 @@ This course material is released under the MIT license for code and CC-BY 4.0 fo
 NB: show an example of what both might look like, with dependencies as `rioxarray`, `geopandas`, `matplotlib`. Explain the `environment.yml` is the appropriate choice for conda, so will be our preferred option here.
 -->
 
-Someone running your code needs to install the same Python packages you used. Rather than simply listing these in a `README.md`, we can provide a file that a package manager can read to recreate the environment automatically. There are two common formats.
+Someone running your code needs to install the same Python packages you used. Rather than simply listing these in a `README.md`, we can provide a file that a package manager can read to recreate the environment automatically. 
 
 As we have been using `conda` to manage our environments throughout this course, an `environment.yml` will be our preferred option. An `environment.yml` file is read by `conda` (or `mamba`). It specifies the name of the environment, which channels to download packages from, and the packages themselves (including Python itself):
 
@@ -164,6 +164,8 @@ conda activate my-environment-name
 You can optionally specify package versions (e.g. `geopandas=1.0` in `environment.yml` - note the different syntax), which makes it more likely your code will still run in several years' time. If you have installed packages with `conda install` as you went along, `conda env export --from-history` will print a list of the packages you explicitly asked for, which is a good starting point for your `environment.yml`.
 :::
 
+You may also occasionally see a `requirements.txt` file, which operates in a similar manner but is designed for `pip` installs rather than `conda`. However, it is still simple and human-readable, allowing you to reconstruct the dependencies in any package manager.
+
 ### .gitignore file
 
 Contains a list of files that you _don't_ want `git` to track (and therefore don't want backed up or shared on GitHub). Each line is a file name or a pattern: `*` acts as a wildcard, and lines beginning with `#` are comments.
@@ -188,9 +190,9 @@ __pycache__/
 *.nc
 ```
 
-These are all junk and metadata files that Windows, macOS, Python and Jupyter produce automatically, which aren't useful or relevant for our project.
+The first five items are all junk and metadata files that Windows, macOS, Python and Jupyter produce automatically, which aren't useful or relevant for our project.
 
-For our projects, it is probably worth also including `.tif` (and `.nc`) files if they are going to be large. Using an appropriate naming convention, you may be able to keep some: for instance, if your full multispectral images are large but your NDVI files are small, you could exclude `*multispectral.tif` files, which would keep files that don't end in `multispectral` (e.g. `*ndvi.tif`). Alternatively, you can exclude all `.tif` files and then make exceptions using `!`:
+For our projects, it is probably worth also excluding `.tif` (and `.nc`) files if they are going to be large. Using an appropriate naming convention, you may be able to keep some: for instance, if your full multispectral images are large but your NDVI files are small, you could exclude `*multispectral.tif` files, which would keep files that don't end in `multispectral` (e.g. `*ndvi.tif`). Alternatively, you can exclude all `.tif` files and then make exceptions using `!`:
 
 ```
 # Ignore all GeoTIFFs...
@@ -199,17 +201,9 @@ For our projects, it is probably worth also including `.tif` (and `.nc`) files i
 !*ndvi.tif
 ```
 
-You can have additional `.gitignore` files within each sub-directory to impose additional rules - say, for whatever reason, you only want to not back up `.csv` files within one subdirectory.
+You can have additional `.gitignore` files within each sub-directory to impose additional rules - say, for whatever reason, you only want to exclude `.csv` files within one subdirectory.
 
-:::{note}
-`.gitignore` only affects files that `git` is not already tracking. If you have already committed a file and later add it to `.gitignore`, you will also need to tell `git` to stop tracking it with `git rm --cached <filename>` (this leaves your local copy of the file untouched).
-:::
-
-<!-- ORIGINAL:
-:::{warning} Hidden Files
-Explain that beginning with a `.` makes it a hidden file, that might not be visible in a standard file explorer. Provide information on how to make this viewable in windows file explorer and macos finder.
-:::
--->
+`.gitignore` only affects files that `git` is not already tracking. If you have already committed a file and later add it to `.gitignore`, you will also need to tell `git` to stop tracking it with `git rm --cached <filename>`. This removes it from tracking whilst leaving your local copy of the file untouched.
 
 :::{warning} Hidden Files
 On macOS and Linux, any file or directory whose name begins with a `.` (such as `.gitignore`, or the `.git` directory we will meet in the next section) is a **hidden file**, and it will not show up in a file browser by default. Windows doesn't hide these files, but hides file extensions by default, which can cause confusion when creating files with no extension (such as `LICENSE`) or with only an extension (such as `.gitignore`).
@@ -246,7 +240,7 @@ Some other general guidance for your content:
  - **Number your notebooks** (e.g. `1_download_data.ipynb`, `2_process_data.ipynb`) so the order in which they should be run is obvious.
  - **Check your notebooks run from top to bottom** before sharing them: in Jupyter Lab, use **Kernel** > **Restart Kernel and Run All Cells**. It is easy to accidentally rely on a cell you have since deleted, edited, or included in the wrong order.
  - **Use clear file and variable names.** `ndvi_2020_summer.tif` is much more helpful than `output2_final_v3.tif`.
- - **Do not include `geemap` map outputs.** These can also be large binary files which take up space. Make sure to "clear cell output" on these before uploading to a directory.
+ - **Do not include `geemap` map outputs.** These can also be large binary files which take up space. Make sure to "clear cell output" on these within Jupyter Lab before uploading to a directory.
 
 ## What this looks like in practice
 
@@ -266,9 +260,9 @@ Some examples of these kinds of repositories from my own field are below. Take a
  - [Picton _et al._ (2025) Code associated with the manuscript "A reassessment of the role of atmospheric and oceanic forcing on ice dynamics at Jakobshavn Isbræ (Sermeq Kujalleq), Ilulissat Icefjord"](https://github.com/hannahpicton/jakobshavn_isbrae)
  - [Ryan _et al._ (2025) Code for "Meltwater ponding has an underestimated radiative effect on the surface of the Greenland Ice Sheet"](https://github.com/JohnnyRyan1/meltwater)
 
-It is worth noting that science can be _open_ without being perfectly _reproducible_. This is noted by my colleagues at the Geological Survey of Denmark and Greenland (GEUS) in their [Greenland ice discharge repository README](https://github.com/GEUS-Glaciology-and-Climate/ice_discharge). They note that every line of code needed to recreate their dataset is viewable in this repository, but to reproduce the work would also require ~100 GB of input velocity data, which is not shared. People can still inspect, use, and critique the code, but won't be able to recreate the outputs without additional data.
+It is worth noting that science can be _open_ without being perfectly _reproducible_. This is noted by my colleagues at the Geological Survey of Denmark and Greenland (GEUS) in their [Greenland ice discharge repository README](https://github.com/GEUS-Glaciology-and-Climate/ice_discharge). They explain that every line of code needed to recreate their dataset is viewable in this repository, but to reproduce the work would also require ~100 GB of input ice velocity data, which is not shared. People can still inspect, use, and critique the code, but won't be able to recreate the outputs without additional data.
 
-You might have to decide what level of openness and reproducibility is useful for your future work. In my own repository I linked to above, it is certainly possible to recreate every output figure from my source paper. However, the source data for the paper comes from over 800 individually classified Sentinel-2 scenes, which I have not shared - instead, I share `.csv` files of the abstracted data, which is much more efficient to share in a repository format. So is this technically reproducible, from beginning to end? It is a reality of working with 'big data' that sharing the source datasets might not be possible due to vast data sizes. However, I have separately made available [the U-Net I used to classify the imagery](https://github.com/trchudley/crevasse-hydrology-unet), so users would be able to reproduce the source data if they wanted to!
+You might have to decide what level of openness and reproducibility is useful for your future work. It is a reality of working with 'big data' that sharing the source datasets might not be possible due to vast data sizes. Some papers choose to share larger datasets through a seperate dedicated research data repository, such as zenodo.org. In my own repository that I linked to above, it is certainly possible to recreate every output figure from the associated paper. However, the source data comes from over 800 individually classified Sentinel-2 scenes, which I have not shared - instead, I share `.csv` files of the abstracted data, which is much more efficient to share in a repository format. So is this technically reproducible, from beginning to end? Probably not. However, I have separately made available [the U-Net I used to classify the imagery](https://github.com/trchudley/crevasse-hydrology-unet), so users would be able to reproduce the source data if they wanted to!
 
 ## Summary
 
