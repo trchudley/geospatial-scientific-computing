@@ -49,6 +49,7 @@ numbering: false
   - [User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 - [`matplotlib`](https://matplotlib.org/)
   - [Examples gallery](https://matplotlib.org/stable/gallery/index.html)
+  - ["Cheatsheets"](https://matplotlib.org/cheatsheets/)
 - [`geopandas`](https://geopandas.org/)
   - [Examples gallery](https://geopandas.org/en/stable/gallery/index.html)
 - [`xarray`](https://docs.xarray.dev)
