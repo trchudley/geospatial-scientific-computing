@@ -83,10 +83,13 @@ project:
         - file: week/09/02-basic-git.md
         - file: week/09/03-collaboration.md
         - file: week/09/exercises-week-09.md
-    # - file: week/10/index.md
-    #   title: "Final Project"
-    #   # children: 
-    #   #   - file: pages/chapters/content.md
+    - file: week/10/index.md
+      title: "Moving Forwards"
+      children: 
+        - file: week/10/01-processing-workflows.ipynb
+        - file: week/10/02-machine-learning.ipynb
+        - file: week/10/03-object-segmentation.ipynb
+        - file: week/10/course-conclusion.md
     - file: recipes/index.md
       title: "Recipes"
       children:

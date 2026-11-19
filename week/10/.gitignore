@@ -1,0 +1,6 @@
+*.tif
+*.jpg
+*.png
+
+era5_bristol_record/
+outputs/
