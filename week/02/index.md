@@ -50,6 +50,20 @@ Some content from this session builds upon CC-BY 4.0 content written by others. 
 <!-- 
 ---
 
+
+TOM M NOTES
+
+Hi Tom,
+
+I think the only things I'd maybe additionally mention in the foundation model section is the DINO series of models which are becoming very popular in remote sensing as an alternative to satellite embeddings, especially for things such as depth estimation and feature extraction. (Vision models often need higher resolution imagery (<10m) than embedding models).
+
+It could also be useful to mention that foundation models, as opposed to traditional deep learning models, are designed to be fine-tuned with limited compute and datasets as they have already been trained, and therefore can be fine-tuned and inferenced on local hardware. This can be done on CPU although, GPU (CUDA or MLX) is preferable as you mention.
+
+And that all the latest deep learning models,  how to use them, and what hardware they require can be found for free on huggingface. Very useful for students that are interested in deep learning as the large companies (Meta, Nvidia, Google) all provide guides and setups for installation of the latest models.
+
+Cheers,
+Tom.
+
 #### draft planning notes 
 
 1. Core Python Modules: Numpy, Pandas, and Matplotlib
